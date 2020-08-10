@@ -1,1 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    overflow-x: hidden;
+    color: #FDFFFC;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+/*---Navigaton-----*/
+
+.navbar {
+    color: #B71419;
+    background-color: #FAF9F9;
+    font-weight: 200;
+    font-size: .9rem;
+    letter-spacing: .2rem;
+    padding: 0px;
+}
+
+.navbar-custom {
+    background-color:rgba(0, 0, 0, 0);
+}
+
+.navbar-brand img {
+    height: 5.25rem;
+    padding-left:.7rem 
+}
+
+.navbar-nav li  {
+    padding-right: 1.5rem;
+    
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    padding-top: 0.8rem;
+}
+
+.navbar-dark .navbar-nav .active .nav-link,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #B71419;
+    text-transform: uppercase;
+}
+
+/*---Background----*/
+
+.home-inner {
+    background-image: url("../images/model_main.jpeg");
+    height: 700px;
+    width: auto;
+    background-size: cover;
+}
+.slogan {
+    position: absolute;
+width: 585px;
+height: 110px;
+left: 774px;
+top: 480px;
+
+font-family: Calligraffitti;
+font-style: normal;
+font-weight: normal;
+font-size: 70px;
+line-height: 110px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.3em;
+
+color: #FAF9F9;
+
+}
 
