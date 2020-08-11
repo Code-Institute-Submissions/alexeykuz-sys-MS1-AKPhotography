@@ -10,7 +10,7 @@
 
 body {
     overflow-x: hidden;
-    color: #FDFFFC;
+    color: #22181C;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
@@ -23,10 +23,11 @@ body {
     font-size: .9rem;
     letter-spacing: .2rem;
     padding: 0px;
+    height: 5.25rem;
 }
 
 .navbar-custom {
-    background-color:rgba(0, 0, 0, 0);
+    background-color:rgba(0, 0, 0, 1);
 }
 
 .navbar-brand img {
@@ -40,11 +41,11 @@ body {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: white;
+    color: #FAF9F9;
     padding-top: 0.8rem;
 }
 
-.navbar-dark .navbar-nav .active .nav-link,
+.navbar-dark .navbar-nav .nav-link.active ,
 .navbar-dark .navbar-nav .nav-link:hover {
     color: #B71419;
     text-transform: uppercase;
@@ -54,30 +55,178 @@ body {
 
 .home-inner {
     background-image: url("../images/model_main.jpeg");
-    height: 700px;
-    width: auto;
+    height: 900px;
+    width: 1440px;
     background-size: cover;
 }
 .slogan {
     position: absolute;
-width: 585px;
-height: 110px;
-left: 774px;
-top: 480px;
+    width: 600px;
+    height: 110px;
+    left: 800px;
+    top: 480px;
+    font-family: Calligraffitti;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 70px;
+    line-height: 110px;
+    letter-spacing: 0.3em;
+    color: #FAF9F9;
+}
 
-font-family: Calligraffitti;
-font-style: normal;
-font-weight: normal;
-font-size: 70px;
-line-height: 110px;
-/* identical to box height */
+/*---About page----*/
 
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.3em;
+.about-center {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 30px;
+    margin: 90px auto 0;
+}
 
-color: #FAF9F9;
+.container-wrap {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 700px;
+    
+}
+
+.text-about {
+    background-color: rgba(253, 253, 250, 0.5);
+    position: absolute;
+    width: 70%;
+    height: auto;
+    line-height: 35px;    
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 50px;
+    float: left;
+    overflow: visible;
+    
+}
+
+.about-inner {
+    background: url("../images/model-about.jpeg");
+    width: 70%;
+    height: 650px;
+    background-repeat: no-repeat;
+    position: absolute;
+    float: right;
+    top: 0;
+    right: 10px;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+/*---About page----*/
+
+.jumbotron {
+    padding-top: 0;
+}
+
+.services-wrap {
+    display: flexbox;
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+
+
+.serivces-center {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 30px;    
+    margin: 90px 0 auto;
+
+}
+.announcement {
+    text-align: center;
+    color: #B71419;
+    font-weight: 900;
+    font-size: 60px;
+    letter-spacing: 1.25px;
+    margin: 0 auto;
+}
+
+/*---Services slides decorion----*/ 
+
+.row {
+    display: flex;
+}
+
+.column {
+    float: left;
+    width: 33%;
+    padding: 25px;
+}
+
+.image {
+    border-radius: 10px;
+    border: 1px solid #22181C;
 
 }
 
+.book-btn,
+.gallery-btn {
+  background-color: #FAF9F9;
+  color: #22181C;
+  font-size: 16px;
+  padding: 6px 12px;
+  border: solid 1px #B71419;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.book-btn:hover,
+.gallery-btn:hover {
+    color: #B71419;
+    text-transform: uppercase;
+}
+
+.gallery-btn {
+    margin-left: 15px;
+    margin-top: 2px;
+    float: left;
+
+
+}
+
+.book-btn {
+    margin-right: 10px;
+    margin-top: 2px;
+    float: right;
+
+}
+
+.container-custom {
+    width: 360px;
+    padding: 10px 10px;
+     
+}
+.container-custom .image-text {
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 800;
+    letter-spacing: .25px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.containter-color-model,
+.containter-color-fashion,
+.containter-color-family {
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 55px;
+    margin-top: 10px;
+}
+.text-prices p {
+    font-weight: 800;
+    text-align: justify;
+    margin-left: 55px;
+    margin-top: 10px;
+    line-height: 2.0rem;
+}

@@ -12,33 +12,35 @@
 <!----Start of Home section-->
 <!----Navigation Bar----->
 <div id="home">
-<nav class="navbar sticky-top navbar-expand-md navbar-dark navbar-custom">
-    <div class="navbar-logo">
-        <a class="navbar-brand" href="index.html">
-            <img src="assets/images/logo_bg_black.jpeg" width="275" height="90" alt="" loading="lazy">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-    </div>
-    <div class="collapse navbar-collapse" id="navbarMenu">
-        <ul class="navbar-nav ml-auto float-right text-right pr-3">
-            <li class="nav-item active">
-                <a class="nav-link" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#services">Services</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#reviews">Reviews</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-            </li>
-        </ul>
+<nav class="navbar fixed-top navbar-expand-md navbar-dark navbar-custom">
+    <div class="container-fluid">
+        <div class="navbar-logo">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/logo_bg_black.jpeg" width="275" height="90" alt="" loading="lazy">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ml-auto float-right text-right pr-3">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#reviews">Reviews</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
     </div>
 </nav>
     <!----background image----->
@@ -56,12 +58,96 @@
 
 <!--Start of About section-->
 <div id="about" class="offset">
+    <div class="container-fluid mb-4 mt-4">
+        <div class="row">
+            <div class="about-center col-12">
+                <h1>About</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row container-wrap">
+            <div class="text-about col-md-6">
+                <p class="mb-3">Hello there!</p>
+                
+                <p class="mb-3"> Thank you for visiting my website!</p>
+
+                <p class="mb-3"> My name is Alexey Kuzmis and I am portrait and fashion photographer based in West London.
+                I developed passion for photograph about 5 years ago. I started from street photography where I tried to capture the candid  human expressions and feeelings.
+                </p>
+                <p>It led to fashion photography where I could combine candid street and fashion photography techniques to make sure photos look as natural as possible.
+                My friendly and engaging nature helps to put clients at ease and creates an enjoyable shoot experience as well as energetic and captivating final images.
+                I will be honoured to photograpg you and happy to answer any questions you have.</p>
+
+            </div>
+            <div class="image-about">
+                <div class="about-wrap">
+                    <div class="about-inner col-md-6">
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
 </div>
 <!--End of About section-->
 
 <!--Start of Service section-->
-<div id="service" class="offset">
+<div id="services" class="offset">
+    <div class="jumbotron jumbotron-fluid services-wrap">
+        <div class="container-fluid mb-4 mt-4">
+            <div class="row">
+                <div class="serivces-center">
+                    <h1>Services</h1>
+                </div>
+            </div>
+        </div>
+        <div class="announcement">
+            <h4>Taking bookings for September and October, few places left</h4>
+        </div>
+<!--Start of Service photo section-->
+        <div class="row">
+            <div class="column container-custom containter-color-model">
+                <img class="image" src="assets/images/model_main.jpeg" alt="model" width="340" height="205" loading="lazy">
+                <p class="image-text">Model Photography</p>
+                <button class="btn gallery-btn"><a href="https://www.dropbox.com/sh/9yr7euqblsokm6h/AAAve8HqjjCqMwXo4ecBpjEVa?dl=0" target="_blank"></a> Gallery</button>
+                <button class="btn book-btn">Book</button>
+            </div>
+            <div class="column container-custom containter-color-fashion">
+                <img class="image" src="assets/images/fashion.jpg" alt="fashion" width="340" height="205" loading="lazy">
+                <p class="image-text">Fashion Photography</p>
+                <button class="btn gallery-btn"><a href="https://www.dropbox.com/sh/9yr7euqblsokm6h/AAAve8HqjjCqMwXo4ecBpjEVa?dl=0" target="_blank"></a> Gallery</button>
+                <button class="btn book-btn">Book</button>
+            </div>
+            <div class="column container-custom containter-color-family">
+                <img class="image" src="assets/images/family.jpeg" alt="family" width="340" height="205" loading="lazy">
+                <p class="image-text">Children & Family Photography</p>
+                <button class="btn gallery-btn"><a href="https://www.dropbox.com/sh/9yr7euqblsokm6h/AAAve8HqjjCqMwXo4ecBpjEVa?dl=0" target="_blank"></a> Gallery</button>
+                <button class="btn book-btn">Book</button>
+            </div>
+        </div>
+<!--End of Service section-->
+        <hr class="my-4">
+        <div class="container-fluid text-prices">
+            <p>
+            All services: £100
+            <br>
+            60 minutes session, up to 200 photos taken. All images are given to you at the end of the session.
+            <br>
+            Headshot, Half length and Full length body shots (if required) in Colour and Black & White.
+            <br>
+            2 digitally retouched (airbrushed) images of your choice in Colour and Black & White.
+            <br>
+            Professional Photo Studio and Outside natural light
+            <br>
+            All headshots provided in full high resolution, print quality.
+            <br>
+            Fast image editing turnaround time.
+            </p>
+        </div>
+    </div>
 </div>
+
 <!--End of Service section-->
 
 <!--Start of Reviews section-->
@@ -78,8 +164,7 @@
         
     </footer>
 </body>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </html>
