@@ -76,31 +76,41 @@ body {
 
 /*---About page----*/
 
-.about-center {
+.about-center,
+.serivces-center,
+.reviews-center,
+.contact-center {
     text-align: center;
-    text-transform: uppercase;
+    margin: 90px auto 0;
+}
+
+.about-center h1,
+.serivces-center h1,
+.reviews-center h1,
+.contact-center h1 {
+text-transform: uppercase;
     font-weight: 800;
     font-size: 30px;
-    margin: 90px auto 0;
 }
 
 .container-wrap {
     display: flex;
     position: relative;
     width: 100%;
-    height: 700px;
+    height: 900px;
     
 }
 
 .text-about {
     background-color: rgba(253, 253, 250, 0.5);
     position: absolute;
-    width: 70%;
+    width: 60%;
     height: auto;
     line-height: 35px;    
     border-radius: 10px;
     margin-left: 50px;
-    margin-top: 50px;
+    margin-top: 100px;
+    padding-top: 15px;
     float: left;
     overflow: visible;
     
@@ -108,7 +118,7 @@ body {
 
 .about-inner {
     background: url("../images/model-about.jpeg");
-    width: 70%;
+    width: 50%;
     height: 650px;
     background-repeat: no-repeat;
     position: absolute;
@@ -119,7 +129,7 @@ body {
     z-index: -1;
 }
 
-/*---About page----*/
+/*---Service page----*/
 
 .jumbotron {
     padding-top: 0;
@@ -133,14 +143,6 @@ body {
 }
 
 
-.serivces-center {
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 800;
-    font-size: 30px;    
-    margin: 90px 0 auto;
-
-}
 .announcement {
     text-align: center;
     color: #B71419;
@@ -150,7 +152,7 @@ body {
     margin: 0 auto;
 }
 
-/*---Services slides decorion----*/ 
+/*---Services slides decoration----*/ 
 
 .row {
     display: flex;
@@ -159,13 +161,12 @@ body {
 .column {
     float: left;
     width: 33%;
-    padding: 25px;
+    padding: 30px;
 }
 
 .image {
     border-radius: 10px;
     border: 1px solid #22181C;
-
 }
 
 .book-btn,
@@ -174,7 +175,7 @@ body {
   color: #22181C;
   font-size: 16px;
   padding: 6px 12px;
-  border: solid 1px #B71419;
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
   cursor: pointer;
   border-radius: 5px;
   text-align: center;
@@ -190,22 +191,20 @@ body {
     margin-left: 15px;
     margin-top: 2px;
     float: left;
-
-
 }
 
 .book-btn {
-    margin-right: 10px;
+    margin-right: 20px;
     margin-top: 2px;
     float: right;
 
 }
 
 .container-custom {
-    width: 360px;
+    width: 340px;
     padding: 10px 10px;
-     
 }
+
 .container-custom .image-text {
     text-transform: uppercase;
     font-size: 1em;
@@ -220,13 +219,144 @@ body {
 .containter-color-family {
     background-color: white;
     border-radius: 10px;
-    margin-left: 55px;
+    margin-left: 75px;
     margin-top: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+
+.jumbotron  {
+    height: 100%;
+}
+
 .text-prices p {
     font-weight: 800;
-    text-align: justify;
-    margin-left: 55px;
-    margin-top: 10px;
+    font-size: 1.25em;
+    text-align: center;
+    margin: 39px 35px;
+    padding: 15px;
     line-height: 2.0rem;
+    background-color: whitesmoke;
+    color:#b71419;
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/*---Reviews slides decoration----*/
+
+.container-custom-reviews-helen {
+    width: 100%;
+    height: auto;
+    margin-top: 70px;
+    display: flex;
+    position: relative;
+}
+ 
+
+.container-custom-reviews-darren {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    display: flex;
+    position: relative;
+}
+
+
+.container-custom-reviews-uliana {
+    width: 100%;
+    height: auto;
+    margin-top: 150px;
+    display: flex;
+    position: relative;
+}
+
+
+.text-reviews-darren,
+.text-reviews-uliana,
+.text-reviews-helen {
+    background-color: rgba(253, 253, 250, 0.5);
+    position: absolute;
+    width: 60%;
+    height: auto;
+    line-height: 35px;    
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 90px;
+    padding-top: 15px;
+    float: left;
+    overflow: visible;
+   
+}   
+
+.text-reviews-kirill {
+    background-color: rgba(253, 253, 250, 0.5);
+    position: absolute;
+    width: 60%;
+    height: auto;
+    line-height: 35px;    
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 10px;
+    padding-top: 15px;
+    float: left;
+    overflow: visible;
+   
+}   
+.review-inner-helen {
+    background-image: url("../images/model_review.jpg");
+    height: 400px;
+    width: 500px;
+    background-repeat: no-repeat;
+    float: right;
+    margin-top: 30px;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+
+
+.review-inner-kirill {
+    background-image: url("../images/model_reviews.jpg");
+    height: 400px;
+    width: 500px;
+    background-repeat: no-repeat;
+    float: left;
+    margin: 100px 0 0 0;
+    right: 10px;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.review-inner-uliana {
+    background-image: url("../images/family_review.jpg");
+    height: 400px;
+    width: 500px;
+    background-repeat: no-repeat;
+    float: right;
+    margin-top: 30px;
+    right: 10px;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.reviews-image {
+    border-radius: 50px;
+    float: left;
+    margin: 5px 50px;
+   
+}
+
+.header-reviews-helen,
+.header-reviews-darren,
+.header-reviews-uliana {
+    margin: 25px 45px 5px;
+}
+
+.header-reviews-kirill {
+    margin-top: 20px 0 5px;
+}
+
+.checked {
+    color:rgb(245, 245, 122);
+    font-size: 1.2em;
+    
 }
