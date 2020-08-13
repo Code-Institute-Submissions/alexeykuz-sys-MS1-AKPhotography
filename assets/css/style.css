@@ -243,19 +243,55 @@ text-transform: uppercase;
 
 /*---Reviews slides decoration----*/
 
-.container-custom-reviews-helen {
-    width: 100%;
-    height: auto;
-    margin-top: 70px;
-    display: flex;
-    position: relative;
-}
- 
 
 .container-custom-reviews-darren {
     width: 100%;
     height: auto;
     margin-top: 10px;
+    display: flex;
+    position: relative;
+}
+
+
+.text-reviews-kirill {
+    background-color: rgba(253, 253, 250, 0.5);
+    position: absolute;
+    width: 60%;
+    height: auto;
+    line-height: 35px;    
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 400px;
+    padding-top: 15px;
+    float: left;
+    overflow: visible;
+}   
+
+.review-inner-kirill {
+    background-image: url("../images/model_reviews.jpg");
+    height: 400px;
+    width: 500px;
+    background-repeat: no-repeat;
+    float: right;
+    margin-top: 100px;
+    margin-right: 5px;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.header-reviews-kirill,
+.reviews-image-kirill {
+    margin-top: -180px;
+    margin-left: 70px;
+    border-radius: 50px;
+    float: left;
+}
+
+
+.container-custom-reviews-helen {
+    width: 100%;
+    height: auto;
+    margin-top: 70px;
     display: flex;
     position: relative;
 }
@@ -287,20 +323,17 @@ text-transform: uppercase;
    
 }   
 
-.text-reviews-kirill {
-    background-color: rgba(253, 253, 250, 0.5);
-    position: absolute;
-    width: 60%;
-    height: auto;
-    line-height: 35px;    
+.review-inner-uliana {
+    background-image: url("../images/family_review.jpg");
+    height: 400px;
+    width: 500px;
+    background-repeat: no-repeat;
+    float: right;
+    margin-top: -50px;
     border-radius: 10px;
-    margin-left: 50px;
-    margin-top: 10px;
-    padding-top: 15px;
-    float: left;
-    overflow: visible;
-   
-}   
+    z-index: -1;
+}
+
 .review-inner-helen {
     background-image: url("../images/model_review.jpg");
     height: 400px;
@@ -313,30 +346,6 @@ text-transform: uppercase;
 }
 
 
-
-.review-inner-kirill {
-    background-image: url("../images/model_reviews.jpg");
-    height: 400px;
-    width: 500px;
-    background-repeat: no-repeat;
-    float: left;
-    margin: 100px 0 0 0;
-    right: 10px;
-    border-radius: 10px;
-    z-index: -1;
-}
-
-.review-inner-uliana {
-    background-image: url("../images/family_review.jpg");
-    height: 400px;
-    width: 500px;
-    background-repeat: no-repeat;
-    float: right;
-    margin-top: 30px;
-    right: 10px;
-    border-radius: 10px;
-    z-index: -1;
-}
 
 .reviews-image {
     border-radius: 50px;
@@ -351,12 +360,71 @@ text-transform: uppercase;
     margin: 25px 45px 5px;
 }
 
-.header-reviews-kirill {
-    margin-top: 20px 0 5px;
-}
 
 .checked {
     color:rgb(245, 245, 122);
     font-size: 1.2em;
     
+}
+
+/*---Contact page decoration----*/
+
+.row-contacts-custom {
+    display: flex;
+    width: 100%;
+}
+
+.contacts-image {
+    border-radius: 50px;
+    float: left;
+    margin: 15px 50px;
+}
+
+.text-contacts {
+    color: #22181C;
+    font-size: 1.25em;
+    float: left;
+    text-align: justify;
+    margin: -250px;
+    margin-left: 60px;
+}
+
+
+.column-contacts-image {
+    float: left;
+    width: 40%;
+    margin-top: 6px;
+    padding: 20px;
+    
+}
+
+.column-contacts {
+    float: right;
+    width: 70%;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
+input[type=text], input[type=email], select, textarea {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #22181C;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #B71419;
+;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #B71419;
+
 }
