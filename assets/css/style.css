@@ -8,10 +8,12 @@
     border: 0;
 }
 
-body {
+body,
+.landing {
     overflow-x: hidden;
     color: #22181C;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    height: 100%;
 }
 
 /*---Navigaton-----*/
@@ -53,17 +55,28 @@ body {
 
 /*---Background----*/
 
-.home-inner {
-    background-image: url("../images/model_main.jpeg");
-    height: 900px;
-    width: 1440px;
-    background-size: cover;
+.container-custom {
+    height: 700px;
 }
+
+.home-image {
+    background-image: url("../images/model_main.jpeg");
+    height: 700px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
 .slogan {
     position: absolute;
-    width: 600px;
-    height: 110px;
-    left: 800px;
+    left: auto;
     top: 480px;
     font-family: Calligraffitti;
     font-style: normal;
@@ -270,7 +283,7 @@ text-transform: uppercase;
 .review-inner-kirill {
     background-image: url("../images/model_reviews.jpg");
     height: 400px;
-    width: 500px;
+    max-width: 500px;
     background-repeat: no-repeat;
     float: right;
     margin-top: 100px;
@@ -326,7 +339,7 @@ text-transform: uppercase;
 .review-inner-uliana {
     background-image: url("../images/family_review.jpg");
     height: 400px;
-    width: 500px;
+    max-width: 500px;
     background-repeat: no-repeat;
     float: right;
     margin-top: -50px;
@@ -337,7 +350,7 @@ text-transform: uppercase;
 .review-inner-helen {
     background-image: url("../images/model_review.jpg");
     height: 400px;
-    width: 500px;
+   max-width: 500px;
     background-repeat: no-repeat;
     float: right;
     margin-top: 30px;
@@ -451,4 +464,70 @@ input[type=submit]:hover {
 hr.socket {
     width: 100%;
     border-top: .1rem #22181C solid; 
+}
+
+/*----Media Queries---*/
+@media (max-width: 740px) {
+    body,
+    .landing {
+        overflow-x: hidden;
+        color: #22181C;
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+        height: 100%;
+    }
+}
+
+@media (max-width: 740px) {
+    .navbar {    
+    font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 740px) {
+  .slogan {
+    font-size: 29px;
+    line-height: 110px;
+    letter-spacing: 0.3em;
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 740px) {
+  .home-image {
+    background-image: url("../images/model_main.jpeg");
+    height: 900px;
+    width: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+  }
+}
+
+/*Bootstrap 4 breakpoints
+
+ 
+/* 
+Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+ 
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  
+ 
+}
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+ 
+} 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    
 }
