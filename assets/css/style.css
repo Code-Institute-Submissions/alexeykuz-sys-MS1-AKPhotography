@@ -9,11 +9,13 @@
 }
 
 body,
+.container-custom,
 .column-custom {
     overflow-x: hidden;
     color: #22181C;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     height: 100%;
+    width: 100%;
 }
 
 /*---Navigaton-----*/
@@ -469,6 +471,7 @@ hr.socket {
 /*----Media Queries---*/
 @media (max-width: 768px) {
     body,
+    .container-custom,
     .column-custom {
         overflow-x: hidden;
         color: #22181C;
@@ -485,6 +488,14 @@ hr.socket {
 }
 
 @media (max-width: 768px) {
+    .navbar-brand img {
+        height: 3rem;
+        width: auto;
+        padding-left:1.7rem 
+    }
+}   
+
+@media (max-width: 768px) {
   .slogan {
     font-size: 29px;
     line-height: 110px;
@@ -495,12 +506,14 @@ hr.socket {
 
 @media (max-width: 768px) {
   .home-image {
-    height: 900px;
-    width: 410px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    padding-left: 20px;
+
+      background-image: url("../images/model_main-resized.jpg");
+      height: 600px;
+      width: inherit;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      padding-left: 20px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
