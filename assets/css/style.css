@@ -9,7 +9,7 @@
 }
 
 body,
-.landing {
+.column-custom {
     overflow-x: hidden;
     color: #22181C;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
@@ -467,23 +467,24 @@ hr.socket {
 }
 
 /*----Media Queries---*/
-@media (max-width: 740px) {
+@media (max-width: 768px) {
     body,
-    .landing {
+    .column-custom {
         overflow-x: hidden;
         color: #22181C;
         font-family: 'Open Sans', Arial, Helvetica, sans-serif;
         height: 100%;
+        width: 100%;
     }
 }
 
-@media (max-width: 740px) {
+@media (max-width: 768px) {
     .navbar {    
     font-size: 1.2rem;
     }
 }
 
-@media (max-width: 740px) {
+@media (max-width: 768px) {
   .slogan {
     font-size: 29px;
     line-height: 110px;
@@ -492,14 +493,14 @@ hr.socket {
   }
 }
 
-@media (max-width: 740px) {
+@media (max-width: 768px) {
   .home-image {
-    background-image: url("../images/model_main.jpeg");
     height: 900px;
-    width: 600px;
+    width: 410px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    padding-left: 20px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
