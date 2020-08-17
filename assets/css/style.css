@@ -83,13 +83,6 @@ html {
 
 /*---About page----*/
 
-.about-center,
-.serivces-center,
-.reviews-center,
-.contact-center {
-    text-align: center;
-    margin: 90px auto 0;
-}
 
 .about-center h1,
 .serivces-center h1,
@@ -98,20 +91,48 @@ html {
     text-transform: uppercase;
     font-weight: 800;
     font-size: 30px;
+    margin: 80px;
+    text-align: center;
 }
 
-.container-custom-about {
+.bg-custom {
+    background-color: rgba(253, 253, 250, 0.5);
+    border-radius: 10px;
+}
+
+.card-text {
+    line-height: 30px; 
+    font-size: 1.2em;
+    letter-spacing: 1px;   
+    margin-left: 50px;
+
+}
+
+.bgimg-2 img {
+    
+    border-radius: 5%;
+    margin-right: 50px;
+    padding: 15px;
+    bottom: -70px;
+    left: 30px;
+    text-align: justify;
+    
+    border: .5px solid rgba(34, 24, 28, 0.329);
+}
+
+/*.container-custom-about {
     display: flex;
     position: relative;
     width: 100%;
-    height: 700px;
-    top:120px
+    height: auto;
+    margin-bottom: 80px;
+    top:40px
 }
 
 .text-about {
     background-color: rgba(253, 253, 250, 0.5);
-    position: absolute;
-    width: 60%;
+    position: relative;
+    width: 55%;
     height: auto;
     line-height: 35px;    
     border-radius: 10px;
@@ -123,7 +144,7 @@ html {
     
 }
 
-.about-inner {
+.img-about {
     background: url("../images/model-about.jpeg");
     width: 60%;
     height: 650px;
@@ -131,11 +152,13 @@ html {
     position: absolute;
     float: right;
     top: 0;
-    right: 10px;
+    right: -40px;
+    margin-bottom: 70px;
+    padding: 40px;
     border-radius: 10px;
     z-index: -1;
 }
-
+*/
 /*---Service page----*/
 
 .jumbotron {
@@ -222,7 +245,7 @@ html {
 }
 
 .container-color {
-    background-color: white;
+    background-color: #FAF9F9;
     border-radius: 10px;
     margin-left: 75px;
     margin-top: 10px;
@@ -236,7 +259,7 @@ html {
 .text-prices p {
     font-weight: 800;
     font-size: 1.25em;
-    text-align: center;
+    text-align: justify;
     margin: 39px 35px;
     padding: 15px;
     line-height: 2.0rem;
@@ -439,7 +462,7 @@ input[type=submit]:hover {
 /*---Footer decoration----*/ 
 
 .text-center {
-    padding: 20px 10px 10px;
+    padding: 20px 10px 5px;
     font-size: 1.2em;
     color:#22181C;
     line-height: 2em;
@@ -480,6 +503,12 @@ hr.socket {
     .navbar {    
     font-size: 1.2rem;
     }
+    .navbar-nav {
+    background-color: rgba(165, 161, 161, 0.5);
+    padding-right: 1rem;
+    text-align: center;
+}
+
 }
 
 @media (max-width: 768px) {
@@ -505,43 +534,52 @@ hr.socket {
 
 @media (max-width: 768px) {
   .bgimg {
-
       background-image: url("../images/model_main-resized.jpg");
       height: 700px;
       width: 100%;
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center;
-     
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
   }
-
 }
 
+/*---About-----*/
+
 @media (max-width: 768px) {
-    .about-inner {
-    width: 60%;
-    height: 650px;
-    background-repeat: no-repeat;
-    position: relative;
-    border-radius: 10px;
-    z-index: -1;
-    margin: 0 auto;
+    .card-text {
+        margin-left: 5px;
+        text-align: justify;
     }
 
 }
+
+/*----Services Page-----*/
+
 @media (max-width: 768px) {
-    .about-inner {
-        width: 350px;
-        height: 650px;
-        background-repeat: no-repeat;
-        position: absolute;
-        margin: 0 auto;
-        border-radius: 10px;
-        z-index: -1;
+    .announcement {
+        text-align: justify;
+        padding: 0 30px 0 30px;
+        
     }
+}
+
+@media (max-width: 768px) {
+    .container-custom-services {
+        margin: 10px auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .text-prices p {
+        text-align: left;
+        width: 340px;
+        margin: 10px auto;
+    
+    }
+
 }
 
 
