@@ -9,13 +9,11 @@
 }
 
 body,
-.container-custom,
-.column-custom {
+html {
     overflow-x: hidden;
     color: #22181C;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     height: 100%;
-    width: 100%;
 }
 
 /*---Navigaton-----*/
@@ -57,28 +55,22 @@ body,
 
 /*---Background----*/
 
-.container-custom {
-    height: 700px;
-}
 
-.home-image {
+.bgimg {
     background-image: url("../images/model_main.jpeg");
     height: 700px;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
+    position: relative;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
 }
 
 .slogan {
-    position: absolute;
-    left: auto;
+    position: relative;
+    right: 30px;
     top: 480px;
     font-family: Calligraffitti;
     font-style: normal;
@@ -103,17 +95,17 @@ body,
 .serivces-center h1,
 .reviews-center h1,
 .contact-center h1 {
-text-transform: uppercase;
+    text-transform: uppercase;
     font-weight: 800;
     font-size: 30px;
 }
 
-.container-wrap {
+.container-custom-about {
     display: flex;
     position: relative;
     width: 100%;
-    height: 900px;
-    
+    height: 700px;
+    top:120px
 }
 
 .text-about {
@@ -133,7 +125,7 @@ text-transform: uppercase;
 
 .about-inner {
     background: url("../images/model-about.jpeg");
-    width: 50%;
+    width: 60%;
     height: 650px;
     background-repeat: no-repeat;
     position: absolute;
@@ -215,12 +207,12 @@ text-transform: uppercase;
 
 }
 
-.container-custom {
+.container-custom-services {
     width: 340px;
     padding: 10px 10px;
 }
 
-.container-custom .image-text {
+.container-custom-services .image-text {
     text-transform: uppercase;
     font-size: 1em;
     font-weight: 800;
@@ -229,9 +221,7 @@ text-transform: uppercase;
     text-align: center;
 }
 
-.containter-color-model,
-.containter-color-fashion,
-.containter-color-family {
+.container-color {
     background-color: white;
     border-radius: 10px;
     margin-left: 75px;
@@ -267,6 +257,9 @@ text-transform: uppercase;
     position: relative;
 }
 
+.column-reviews-darren {
+    height:200px;
+}
 
 .text-reviews-kirill {
     background-color: rgba(253, 253, 250, 0.5);
@@ -294,12 +287,12 @@ text-transform: uppercase;
     z-index: -1;
 }
 
-.header-reviews-kirill,
-.reviews-image-kirill {
-    margin-top: -180px;
-    margin-left: 70px;
+.header-reviews-kirill {
+    top: 340px;
+    margin-left: 120px;
     border-radius: 50px;
     float: left;
+    position: absolute;
 }
 
 
@@ -327,7 +320,7 @@ text-transform: uppercase;
     background-color: rgba(253, 253, 250, 0.5);
     position: absolute;
     width: 60%;
-    height: auto;
+    height: 200px;
     line-height: 35px;    
     border-radius: 10px;
     margin-left: 50px;
@@ -469,9 +462,8 @@ hr.socket {
 }
 
 /*----Media Queries---*/
-@media (max-width: 768px) {
-    body,
-    .container-custom,
+
+/*.container-custom,
     .column-custom {
         overflow-x: hidden;
         color: #22181C;
@@ -480,6 +472,9 @@ hr.socket {
         width: 100%;
     }
 }
+
+/*---Navigaton-----*/
+
 
 @media (max-width: 768px) {
     .navbar {    
@@ -495,31 +490,60 @@ hr.socket {
     }
 }   
 
+
+/*---Background-----*/
+
 @media (max-width: 768px) {
   .slogan {
-    font-size: 29px;
+    font-size: 10px;
     line-height: 110px;
-    letter-spacing: 0.3em;
-    margin-left: 10px;
+    letter-spacing: 0.7em;
+    right: -70px;
+    top: 560px;
   }
 }
 
 @media (max-width: 768px) {
-  .home-image {
+  .bgimg {
 
       background-image: url("../images/model_main-resized.jpg");
-      height: 600px;
-      width: inherit;
+      height: 700px;
+      width: 100%;
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center;
-      padding-left: 20px;
+     
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-
   }
+
 }
+
+@media (max-width: 768px) {
+    .about-inner {
+    width: 60%;
+    height: 650px;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 10px;
+    z-index: -1;
+    margin: 0 auto;
+    }
+
+}
+@media (max-width: 768px) {
+    .about-inner {
+        width: 350px;
+        height: 650px;
+        background-repeat: no-repeat;
+        position: absolute;
+        margin: 0 auto;
+        border-radius: 10px;
+        z-index: -1;
+    }
+}
+
 
 /*Bootstrap 4 breakpoints
 
