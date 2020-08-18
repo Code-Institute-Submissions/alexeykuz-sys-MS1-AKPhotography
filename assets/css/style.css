@@ -53,6 +53,12 @@ html {
     text-transform: uppercase;
 }
 
+.navbar-toggler {
+    right: 15px;
+    position: absolute;
+    margin: 0 auto;
+}
+
 /*---Background----*/
 
 
@@ -575,7 +581,7 @@ hr.socket {
 @media (max-width: 768px) {
     .text-prices p {
         text-align: left;
-        width: 340px;
+        width: auto;
         margin: 10px auto;
     
     }
