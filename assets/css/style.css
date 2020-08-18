@@ -694,6 +694,7 @@ hr.socket {
     .card-custom {
         margin-right: 10px;
         margin-left: 25px;
+        z-index: -1;
     }
 }
 
@@ -736,8 +737,9 @@ hr.socket {
     .helen-wrap,
     .kirill-wrap,
     .uliana-wrap {
-        height: 50px;
-        
+        height: 100px;
+        width: 400px;
+        margin-top: 5px; 
     }
 }
 
@@ -745,8 +747,8 @@ hr.socket {
     .review-bgimg-kirill,
     .review-bgimg-helen,
     .review-bgimg-uliana {
-        width: 100%;
-        top:-250px;
+        width: 350px;
+        top: -260px;
         margin-right: 5px;
         margin-left: 5px;
         margin-bottom: 0;
