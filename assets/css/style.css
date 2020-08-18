@@ -280,6 +280,16 @@ html {
 
 .card-custom {
     margin-left: 25px;
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+    margin-bottom: 250px;
+    
+}
+
+.card-custom-helen {
+    margin-left: 25px;
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+    margin-bottom: 250px;
+    width: 850px;
 }
 
 .reviews-image img {
@@ -293,6 +303,7 @@ html {
 .header-reviews-helen {
     margin-top: 5px;
     margin-left: 15px;
+    padding-right: 45px;
    
 }
 
@@ -300,7 +311,7 @@ html {
     height: auto;
     line-height: 35px;    
     float: left;
-    margin: 0 30px 10px;
+    margin: 0 10px 10px;
 }
 
 
@@ -310,14 +321,21 @@ html {
     height: 400px;
     width: 500px;
     background-repeat: no-repeat;
-    top:-80px;
+    top:-300px;
     float: right;
+    
     margin-right: 20px;
     border-radius: 10px;
     margin-bottom: 0;
     z-index: -1;
 }
 
+.helen-wrap,
+.kirill-wrap,
+.uliana-wrap {
+    height: 400px;
+    width: 100%;
+}
 
 .review-bgimg-kirill {
     background-image: url("../images/model_reviews.jpg");
@@ -326,7 +344,7 @@ html {
     width: 500px;
     background-repeat: no-repeat;
     float: right;
-    top:-80px;
+    top:-300px;
     margin-right: 20px;
     border-radius: 10px;
     margin-bottom: 0;
@@ -340,7 +358,7 @@ html {
     width: 500px;
     background-repeat: no-repeat;
     float: right;
-    top:-100px;
+    top:-300px;
     margin-right: 20px;
     margin-bottom: 0;
     border-radius: 10px;
@@ -672,20 +690,68 @@ hr.socket {
 
 /*----Reviews Page-----*/
 
-    
+@media (max-width: 768px) {
+    .card-custom {
+        margin-right: 10px;
+        margin-left: 25px;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .card-custom-helen {
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-bottom: 250px;
+        width: auto;
+    }
+        
+}
+
+@media (max-width: 768px) {
+    .text-about {
+        margin-left: 5px;
+        text-align: justify;
+    }
+
+}
 @media(max-width: 768pc) {
     .reviews-image img {
         border-radius: 50px;
-        margin-left: 10px;
+        margin-left: 30px;
     }
 }
 
 @media (max-width: 768px) {
     .text-helen {
-         margin-left: 25px;
-        text-align: center;
+         margin-left: 5px;
+        text-align: justify;
         
         
+    }
+}
+
+@media (max-width: 768px) {
+    .helen-wrap,
+    .kirill-wrap,
+    .uliana-wrap {
+        height: 50px;
+        
+    }
+}
+
+@media (max-width: 768px) {
+    .review-bgimg-kirill,
+    .review-bgimg-helen,
+    .review-bgimg-uliana {
+        width: 100%;
+        top:-250px;
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-bottom: 0;
+        background-position: center center;
+        background-size: cover;      
     }
 }
 
