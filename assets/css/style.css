@@ -26,10 +26,13 @@ html {
     letter-spacing: .2rem;
     padding: 0px;
     height: 5.25rem;
+    
+    
 }
 
 .navbar-custom {
     background-color:rgba(0, 0, 0, 1);
+    
 }
 
 .navbar-brand img {
@@ -45,6 +48,7 @@ html {
 .navbar-dark .navbar-nav .nav-link {
     color: #FAF9F9;
     padding-top: 0.8rem;
+    
 }
 
 .navbar-dark .navbar-nav .nav-link.active ,
@@ -57,6 +61,7 @@ html {
     right: 15px;
     position: absolute;
     margin: 0 auto;
+    
 }
 
 /*---Background----*/
@@ -371,143 +376,13 @@ html {
     font-size: 1.2em;    
 }
 
-/*.container-custom-reviews-helen {
-    width: 100%;
-    height: auto;
-    margin-top: 20px;
-    position: relative;
-    
-}
-
-
-.header-reviews-helen h3 {
-    margin-top: 20px;
-    
-}
-
-.text-reviews-helen {
-    background-color: rgba(228, 228, 220, 0.767);
-    position: absolute;
-    width: 60%;
-    line-height: 35px;    
-    border-radius: 10px;
-    margin-left: 50px;
-    margin-top: 30px;
-    padding-top: 15px;
-    float: left;
-    overflow: visible;
-   
-}   
-
-.container-custom-reviews-darren {
-    width: 100%;
-    height: auto;
-    margin-top: 10px;
-    display: flex;
-    position: relative;
-}
-
-.column-reviews-darren {
-    height:200px;
-}
-
-.text-reviews-kirill {
-    background-color: rgba(253, 253, 250, 0.5);
-    position: absolute;
-    width: 60%;
-    height: auto;
-    line-height: 35px;    
-    border-radius: 10px;
-    margin-left: 50px;
-    margin-top: 400px;
-    padding-top: 15px;
-    float: left;
-    overflow: visible;
-}   
-
-.review-inner-kirill {
-    background-image: url("../images/model_reviews.jpg");
-    height: 400px;
-    max-width: 500px;
-    background-repeat: no-repeat;
-    float: right;
-    margin-top: 100px;
-    margin-right: 5px;
-    border-radius: 10px;
-    z-index: -1;
-}
-
-.header-reviews-kirill {
-    top: 340px;
-    margin-left: 120px;
-    border-radius: 50px;
-    float: left;
-    position: absolute;
-}
-
-
-
-
-.container-custom-reviews-uliana {
-    width: 100%;
-    height: auto;
-    margin-top: 150px;
-    display: flex;
-    position: relative;
-}
-
-
-.text-reviews-darren,
-.text-reviews-uliana {
-    background-color: rgba(228, 228, 220, 0.767);
-    
-    position: absolute;
-    width: 100%;
-    
-    line-height: 35px;    
-    border-radius: 10px;
-    margin-left: 50px;
-    margin-top: 120px;
-    padding-top: 15px;
-    float: left;
-    overflow: visible;
-   
-}   
-
-.review-inner-uliana {
-    background-image: url("../images/family_review.jpg");
-    height: 400px;
-    max-width: 500px;
-    background-repeat: no-repeat;
-    float: right;
-    margin-top: -50px;
-    border-radius: 10px;
-    z-index: -1;
-}
-
-
-
-
-.reviews-image {
-    border-radius: 50px;
-    float: left;
-    margin: 5px 50px;
-   
-}
-
-
-
-.checked {
-    color:rgb(245, 245, 122);
-    font-size: 1.2em;
-    
-}
 
 /*---Contact page decoration----*/
 
 .row-contacts-custom {
-    display: flex;
     width: 100%;
+    justify-content: center;
+    margin-bottom: 50px;
 }
 
 .contacts-image {
@@ -516,13 +391,12 @@ html {
     margin: 15px 50px;
 }
 
-.text-contacts {
+.text-contacts p {
     color: #22181C;
     font-size: 1.25em;
     float: left;
     text-align: justify;
-    margin: -250px;
-    margin-left: 60px;
+    align-self: start;
 }
 
 
@@ -539,6 +413,7 @@ html {
     width: 70%;
     margin-top: 10px;
     margin-left: 10px;
+    flex-grow: 4;
     
 }
 
@@ -591,16 +466,6 @@ hr.socket {
 
 /*----Media Queries---*/
 
-/*.container-custom,
-    .column-custom {
-        overflow-x: hidden;
-        color: #22181C;
-        font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-        height: 100%;
-        width: 100%;
-    }
-}
-
 /*---Navigaton-----*/
 
 
@@ -612,6 +477,7 @@ hr.socket {
     background-color: rgba(165, 161, 161, 0.5);
     padding-right: 1rem;
     text-align: center;
+    position: fixed;
 }
 
 }
@@ -757,31 +623,6 @@ hr.socket {
     }
 }
 
-/*@media(max-width: 768pc) {
-    .reviews-image {
-        border-radius: 50px;
-        margin: 2px 10px;
-    }
-}
-
-
-@media(max-width: 768pc) {
-    .header-reviews-helen h3 {
-        margin: 5px 5px 5px;
-        font-size: 1em;
-       
-       
-    }
-}
-
-@media(max-width: 768pc) {
-    .text-reviews-helen {
-    margin: 0 auto;
-    text-align: justify;
-    width: 100%;
-    line-height: 35px;    
-    
-}   
 
 
 /*Bootstrap 4 breakpoints
