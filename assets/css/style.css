@@ -380,8 +380,7 @@ html {
 /*---Contact page decoration----*/
 
 .row-contacts-custom {
-    width: 100%;
-    justify-content: center;
+    display: flex;
     margin-bottom: 50px;
 }
 
@@ -391,29 +390,29 @@ html {
     margin: 15px 50px;
 }
 
-.text-contacts p {
+.text-contacts {
     color: #22181C;
     font-size: 1.25em;
-    float: left;
+    margin-left: 45px;
+    top:-250px;
     text-align: justify;
-    align-self: start;
+    
 }
 
 
 .column-contacts-image {
     float: left;
-    width: 40%;
+    width: 100%;
     margin-top: 6px;
     padding: 20px;
     
 }
 
 .column-contacts {
-    float: right;
-    width: 70%;
-    margin-top: 10px;
-    margin-left: 10px;
-    flex-grow: 4;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 350px;
+    
     
 }
 
