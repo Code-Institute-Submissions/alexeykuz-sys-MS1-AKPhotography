@@ -402,6 +402,7 @@ html {
     top:50px;
     text-align: justify;
     
+    
 }
 
 
@@ -416,7 +417,7 @@ html {
 .column-contacts {
     width: 100%;
     margin-top: 20px;
-    margin-left: 350px;
+    margin-left: 200px;
     
     
 }
@@ -646,10 +647,12 @@ hr.socket {
         width: 100%;
     }
 }
+
+/*stackoverflow reference to hiding text*/
 @media (max-width: 768px) {
     .text-contacts {
         display: none !important;
-    
+    }
 }
 
 @media (max-width: 768px) {
