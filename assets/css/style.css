@@ -245,6 +245,11 @@ html {
 .container-custom-services {
     width: 340px;
     padding: 10px 10px;
+    
+}
+
+.row{
+    justify-content: center;
 }
 
 .container-custom-services .image-text {
@@ -387,14 +392,14 @@ html {
 .contacts-image {
     border-radius: 50px;
     float: left;
-    margin: 15px 50px;
+    margin: 15px 5px;
 }
 
 .text-contacts {
     color: #22181C;
     font-size: 1.25em;
-    margin-left: 45px;
-    top:-250px;
+    margin-left: 5px;
+    top:50px;
     text-align: justify;
     
 }
@@ -575,6 +580,17 @@ hr.socket {
         
 }
 
+
+@media (max-width: 768px) {
+    .header-reviews-helen {
+        margin-left: 25px;
+        margin-right: 25px;
+        width: 100%;
+    }
+        
+}
+
+
 @media (max-width: 768px) {
     .text-about {
         margin-left: 5px;
@@ -621,8 +637,31 @@ hr.socket {
         background-size: cover;      
     }
 }
+/*----Contact Page-----*/
 
+@media (max-width: 768px) {
+    .row-contacts-custom {
+        display: flex;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    .text-contacts {
+        display: none !important;
+    
+}
 
+@media (max-width: 768px) {
+    .column-contacts {
+        width: 100%;
+        margin-left: 40px;
+        margin-right: 20px;
+        
+        
+    }
+    
+}
 
 /*Bootstrap 4 breakpoints
 
