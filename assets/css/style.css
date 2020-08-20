@@ -61,7 +61,7 @@ html {
     right: 15px;
     position: absolute;
     margin: 0 auto;
-    
+    position: fixed;
 }
 
 /*---Background----*/
@@ -69,7 +69,8 @@ html {
 
 .bgimg {
     background-image: url("../images/model_main.jpeg");
-    height: 700px;
+    height: auto;
+    top:80px !important;
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
@@ -386,42 +387,27 @@ html {
 
 /*---Contact page decoration----*/
 
-.row-contacts-custom {
-    display: flex;
-    margin-bottom: 50px;
+
+.column-contacts-image {
+    margin-top: 25px;
+    margin-left: 15px;
+    border-radius: 50px;
 }
 
-.contacts-image {
-    border-radius: 50px;
-    float: left;
-    margin: 15px 5px;
-}
+    
 
 .text-contacts {
     color: #22181C;
-    font-size: 1.25em;
-    margin-left: 5px;
-    top:50px;
+    font-size: 1.15em;
     text-align: justify;
     
     
 }
 
-
-.column-contacts-image {
-    float: left;
-    width: 100%;
-    margin-top: 6px;
-    padding: 20px;
-    
-}
-
 .column-contacts {
-    width: 100%;
-    margin-top: 20px;
-    margin-left: 200px;
-    
-    
+    margin: 25px;
+    padding-bottom: 10px;
+    margin-left: 120px;
 }
 
 input[type=text], input[type=email], select, textarea {
@@ -667,6 +653,12 @@ hr.socket {
     }
 }
 
+
+@media (max-width: 768px) {
+    .column-contacts-image {
+        text-align: center;
+    }
+}
 /*stackoverflow reference to hiding text*/
 @media (max-width: 768px) {
     .text-contacts {
