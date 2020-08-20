@@ -293,14 +293,14 @@ html {
     margin-left: 25px;
     filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
     margin-bottom: 250px;
-    
+    width:60%;
 }
 
 .card-custom-helen {
     margin-left: 25px;
     filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
     margin-bottom: 250px;
-    width: 850px;
+    width: 60%;
 }
 
 .reviews-image img {
@@ -342,6 +342,7 @@ html {
 }
 
 .helen-wrap,
+.darren-wrap,
 .kirill-wrap,
 .uliana-wrap {
     height: 400px;
@@ -477,14 +478,24 @@ hr.socket {
 
 @media (max-width: 768px) {
     .navbar {    
-    font-size: 1.2rem;
+        font-size: 1.2rem;
     }
     .navbar-nav {
-    background-color: rgba(165, 161, 161, 0.5);
-    padding-right: 1rem;
-    text-align: center;
-    position: fixed;
+        background-color: rgba(165, 161, 161, 0.5);
+        padding-right: 1rem;
+        text-align: center;
+    
+    }
+
 }
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        background-color: rgba(165, 161, 161, 0.5);
+        padding-right: 1rem;
+        text-align: center;
+
+    }
 
 }
 
@@ -496,7 +507,13 @@ hr.socket {
     }
 }   
 
-
+@media (max-width: 992px) {
+    .navbar-brand img {
+        height: 2.3rem;
+        width: auto;
+        padding-left:1.7rem 
+    }
+}   
 /*---Background-----*/
 
 @media (max-width: 768px) {
@@ -566,7 +583,8 @@ hr.socket {
     .card-custom {
         margin-right: 10px;
         margin-left: 25px;
-        z-index: -1;
+        
+        width: auto;
     }
 }
 
@@ -600,7 +618,7 @@ hr.socket {
     }
 
 }
-@media(max-width: 768pc) {
+@media(max-width: 768px) {
     .reviews-image img {
         border-radius: 50px;
         margin-left: 30px;
@@ -618,10 +636,10 @@ hr.socket {
 
 @media (max-width: 768px) {
     .helen-wrap,
+    .darren-wrap,
     .kirill-wrap,
     .uliana-wrap {
         height: 100px;
-        width: 400px;
         margin-top: 5px; 
     }
 }
