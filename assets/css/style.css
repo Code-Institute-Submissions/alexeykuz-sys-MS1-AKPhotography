@@ -575,8 +575,7 @@ hr.socket {
     .card-custom {
         margin-right: 10px;
         margin-left: 25px;
-        
-        width: auto;
+        width: 100%;
     }
 }
 
@@ -587,7 +586,7 @@ hr.socket {
         margin-left: 25px;
         margin-right: 25px;
         margin-bottom: 250px;
-        width: auto;
+        width: 100%;
     }
         
 }
