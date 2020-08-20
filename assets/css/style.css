@@ -59,7 +59,6 @@ html {
 
 .navbar-toggler {
     right: 15px;
-    position: absolute;
     margin: 0 auto;
     position: fixed;
 }
@@ -502,7 +501,7 @@ hr.socket {
 
 @media (max-width: 992px) {
     .navbar-brand img {
-        height: 2.3rem;
+        height: 2.9rem;
         width: auto;
         padding-left:1.7rem 
     }
