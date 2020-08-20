@@ -438,6 +438,13 @@ input[type=submit]:hover {
     padding: 20px 10px 5px;
     font-size: 1.2em;
     color:#22181C;
+    
+}
+
+.text-center p {
+    
+    font-size: 1.2em;
+    color:#22181C;
     line-height: 2em;
 }
 
