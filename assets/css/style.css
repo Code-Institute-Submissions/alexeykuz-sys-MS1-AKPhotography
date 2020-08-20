@@ -68,7 +68,7 @@ html {
 
 .bgimg {
     background-image: url("../images/model_main.jpeg");
-    height: auto;
+    height: 700px;
     top:80px !important;
     position: relative;
     background-repeat: no-repeat;
@@ -493,7 +493,7 @@ hr.socket {
 
 @media (max-width: 768px) {
     .navbar-brand img {
-        height: 3.9rem;
+        height: 3.5rem;
         width: auto;
         padding-left:1.7rem 
     }
@@ -501,7 +501,7 @@ hr.socket {
 
 @media (max-width: 992px) {
     .navbar-brand img {
-        height: 3.9rem;
+        height: 3.5rem;
         width: auto;
         padding-left:1.7rem 
     }
