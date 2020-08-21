@@ -539,6 +539,7 @@ hr.socket {
     .text-about {
         margin-left: 5px;
         text-align: justify;
+        padding: 5px;
     }
 
 }
@@ -578,6 +579,8 @@ hr.socket {
         margin-left: 5px;
         padding-right: 15px;
         width: 100%;
+        text-align: center;
+        
     }
 }
 
