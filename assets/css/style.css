@@ -81,9 +81,6 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
 }
 
 .slogan {
@@ -532,9 +529,7 @@ hr.socket {
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    -
   }
 }
 
