@@ -594,7 +594,7 @@ hr.socket {
         margin-left: 10px;
         margin-right: 10px;
         padding-right: 5px;
-        margin-bottom: 250px;
+        margin-bottom: 50px;
         width: auto;
         
     }
@@ -620,6 +620,7 @@ hr.socket {
         border-radius: 50px;
         margin-left: 10px;
         margin-top: 15px;
+        
     }
 }
 
@@ -633,22 +634,41 @@ hr.socket {
     }
 }
 
+
 @media (max-width: 768px) {
-    .helen-wrap,
-    .darren-wrap,
+    .helen-wrap {
+        height: 380px;
+
+    }
+}
+
+@media (max-width: 768px) {
     .kirill-wrap,
     .uliana-wrap {
-        height: 100px;
-        margin-top: 5px; 
+        height: 200px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    
+    .review-bgimg-helen {
+        width: inherit;
+        top: -230px;
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-top: 180px;
+        margin-bottom: 0;
+        background-position: center center;
+        background-size: cover;      
     }
 }
 
 @media (max-width: 768px) {
     .review-bgimg-kirill,
-    .review-bgimg-helen,
     .review-bgimg-uliana {
-        width: 350px;
-        top: -260px;
+        width: inherit;
+        top: -220px;
         margin-right: 5px;
         margin-left: 5px;
         margin-bottom: 0;
