@@ -60,7 +60,7 @@ html {
 
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: #B71419;
+    color: rgb(179, 19, 24);
     text-transform: uppercase;
 }
 
@@ -85,14 +85,14 @@ html {
 
 .slogan {
     position: relative;
-    right: 30px;
+    right: 45px;
     top: 480px;
     font-family: Calligraffitti;
     font-style: normal;
     font-weight: normal;
-    font-size: 70px;
+    font-size: 85px;
     line-height: 110px;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.2em;
     color: #FAF9F9;
 }
 
@@ -110,7 +110,7 @@ html {
     text-align: center;
 }
 
-.bg-custom {
+/*.bg-custom {
     background-color: rgba(253, 253, 250, 0.5);
     border-radius: 10px;
 }
@@ -133,47 +133,36 @@ html {
     text-align: justify;
     
     border: .5px solid rgba(34, 24, 28, 0.329);
+}*/
+
+.container-about-custom {
+    display: inline;
+
 }
 
-/*.container-custom-about {
-    display: flex;
-    position: relative;
+.row-about {
+    text-align: justify;
     width: 100%;
-    height: auto;
-    margin-bottom: 80px;
-    top:40px
+    height: 100%;
 }
 
 .text-about {
-    background-color: rgba(253, 253, 250, 0.5);
-    position: relative;
-    width: 55%;
-    height: auto;
-    line-height: 35px;    
-    border-radius: 10px;
-    margin-left: 50px;
-    margin-top: 100px;
-    padding-top: 15px;
+   margin-left: 30px;
+    line-height: 2rem;
     float: left;
-    overflow: visible;
+    
     
 }
 
 .img-about {
     background: url("../images/model-about.jpeg");
-    width: 60%;
-    height: 650px;
-    background-repeat: no-repeat;
-    position: absolute;
     float: right;
-    top: 0;
-    right: -40px;
-    margin-bottom: 70px;
-    padding: 40px;
-    border-radius: 10px;
-    z-index: -1;
+    width: 100%;
+    height: 600px;
+   
+   background-repeat: no-repeat;
 }
-*/
+
 /*---Service page----*/
 
 .jumbotron {
@@ -534,13 +523,35 @@ hr.socket {
 
 /*---About-----*/
 
+
+
 @media (max-width: 768px) {
+    .row-about {
+        margin-right: 0px;
+        margin-left: 10px;
+        padding-right: 5px;
+        width: 100%;
+        text-align: center;
+    }
     .text-about {
+        
         margin-left: 5px;
         text-align: justify;
         padding-right: 5px;
     }
+    .img-about {
+        width: 100%;
+        margin-right: 5px;
+        background-position-x: 56%; 
+    }
+}
 
+@media screen and (min-width: 992px) {
+    .img-about {
+        width: 100%;
+        margin-right: 5px;
+        background-position-x: 56%; 
+    }
 }
 
 /*----Services Page-----*/
@@ -606,14 +617,9 @@ hr.socket {
     .header-reviews-helen {
         margin-left: 5px;
         margin-right: 5px;
-        padding-right: 5px;
-        
-        
-    }
-        
+        padding-right: 5px;   
+    }        
 }
-
-
 
 @media(max-width: 768px) {
     .reviews-image img {
