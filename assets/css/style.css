@@ -222,39 +222,46 @@ html {
 
 /*---Reviews decoration----*/
 
-.card-custom {
-    margin-left: 25px;
-    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
-    margin-bottom: 250px;
-    width:60%;
-}
-
-
-.card-custom-helen {
-    margin-left: 25px;
-    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
-    margin-bottom: 250px;
-    width: 60%;
+.review-card-wrapper {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column
     
 }
 
-.reviews-image img {
+.review-card-custom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    width: 23rem;
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.363));
+    
+}
+
+.img-review {
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
     border-radius: 50px;
-    float: left;
-    margin-left: 15px;
-    margin-top: 5px; 
-    margin-bottom: 5px;
+    width: 130px;
+    height: 130px;
+    margin-top: 20px;
     
 }
 
-.header-reviews-helen {
+.header-reviews {
     margin-top: 5px;
     padding-right: 45px;
-    float: left;
-   
+    align-content: center;
+    
 }
 
-.text-helen {
+
+
+.text-reviews {
     height: auto;
     font-size: 1.2em;
     line-height: 35px;    
@@ -263,63 +270,11 @@ html {
 }
 
 
-.review-bgimg-helen {
-    background-image: url("../images/model_review.jpg");
-    position: relative;
-    height: 400px;
-    width: 500px;
-    background-repeat: no-repeat;
-    top:-300px;
-    float: right;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    margin-right: 20px;
-    border-radius: 10px;
-    margin-bottom: 0;
-    z-index: -1;
-}
-
-.helen-wrap,
-.darren-wrap,
-.kirill-wrap,
-.uliana-wrap {
-    height: 400px;
-    width: 100%;
-}
-
-.review-bgimg-kirill {
-    background-image: url("../images/model_reviews.jpg");
-    position: relative;
-    height: 400px;
-    width: 500px;
-    background-repeat: no-repeat;
-    float: right;
-    top:-300px;
-    margin-right: 20px;
-    border-radius: 10px;
-    margin-bottom: 0;
-    z-index: -1;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-.review-bgimg-uliana {
-    background-image: url("../images/family_review.jpg");
-    position: relative;
-    height: 400px;
-    width: 500px;
-    background-repeat: no-repeat;
-    float: right;
-    top:-300px;
-    margin-right: 20px;
-    margin-bottom: 0;
-    border-radius: 10px;
-    z-index: -1;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
 
 .checked {
     color:rgb(245, 245, 122);
-    font-size: 1.2em;    
+    font-size: 1.2em;
+
 }
 
 
@@ -516,108 +471,26 @@ hr.socket {
 
 /*----Reviews Page-----*/
 
-@media (max-width: 768px) {
-    .card-custom {
-        margin-right: 10px;
-        margin-left: 10px;
-        padding-right: 5px;
-        width: auto;
-    }
-}
-
-
-@media (max-width: 768px) {
-    .reviews-row-custom {
-       display: block;
-    }
-}
-
-
-@media (max-width: 768px) {
-    .card-custom-helen {
-        margin-left: 10px;
-        margin-right: 10px;
-        padding-right: 5px;
-        margin-bottom: 50px;
-        width: auto;
+@media screen and (min-width: 700px) {
+    .review-card-wrapper {
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+        justify-content: space-around;
+        clear: both;
+        flex-direction: row;
+       
+       display: flex;
         
     }
-        
-}
-
-
-@media (max-width: 768px) {
-    .header-reviews-helen {
-        margin-left: 5px;
-        margin-right: 5px;
-        padding-right: 5px;   
-    }        
-}
-
-@media(max-width: 768px) {
-    .reviews-image img {
-        border-radius: 50px;
-        margin-left: 10px;
-        margin-top: 15px;
-        
+    .review-card-custom {
+        width: 35rem;
+        margin: 10px;
     }
-}
 
-@media (max-width: 768px) {
-    .text-helen {
-         margin: 0;
-        text-align: justify;
-        
-        
-        
-    }
 }
 
 
-@media (max-width: 768px) {
-    .helen-wrap {
-        height: 380px;
-
-    }
-}
-
-@media (max-width: 768px) {
-    .kirill-wrap,
-    .uliana-wrap {
-        height: 200px;
-    }
-}
-
-
-@media (max-width: 768px) {
-    
-    .review-bgimg-helen {
-        width: inherit;
-        top: -230px;
-        margin-right: 5px;
-        margin-left: 5px;
-        margin-top: 180px;
-        margin-bottom: 0;
-        background-position: center center;
-        background-size: cover;      
-    }
-}
-
-
-
-
-@media (max-width: 768px) {
-    .review-bgimg-kirill,
-    .review-bgimg-uliana {
-        width: inherit;
-        top: -220px;
-        margin-right: 5px;
-        margin-left: 5px;
-        margin-bottom: 0;
-        background-position: center center;
-        background-size: cover;      
-    }
-}
 /*----Contact Page-----*/
 
 @media (max-width: 768px) {
