@@ -110,31 +110,6 @@ html {
     text-align: center;
 }
 
-/*.bg-custom {
-    background-color: rgba(253, 253, 250, 0.5);
-    border-radius: 10px;
-}
-
-.text-about {
-    line-height: 30px; 
-    font-size: 1.2em;
-    letter-spacing: 1px;   
-    margin-left: 50px;
-
-}
-
-.bgimg-2 img {
-    
-    border-radius: 5%;
-    margin-right: 50px;
-    padding: 15px;
-    bottom: -70px;
-    left: 30px;
-    text-align: justify;
-    
-    border: .5px solid rgba(34, 24, 28, 0.329);
-}*/
-
 .container-about-custom {
     display: inline;
 
@@ -159,7 +134,6 @@ html {
     float: right;
     width: 100%;
     height: 600px;
-   
    background-repeat: no-repeat;
 }
 
@@ -168,14 +142,6 @@ html {
 .jumbotron {
     padding-top: 0;
 }
-
-.services-wrap {
-    justify-content: space-evenly;
-    position: relative;
-    width: 100%;
-    height: 600px;
-}
-
 
 .announcement {
     text-align: center;
@@ -188,19 +154,26 @@ html {
 
 /*---Services slides decoration----*/ 
 
-.row {
+.card-wrapper {
     display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.column {
-    float: left;
-    width: 33%;
-    padding: 30px;
+.service-card-custom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
 }
 
-.image {
-    border-radius: 10px;
-    border: 1px solid #22181C;
+.card-body {
+    width: 100%;
+    
+
 }
 
 .book-btn,
@@ -222,48 +195,15 @@ html {
 }
 
 .gallery-btn {
-    margin-left: 15px;
+    margin-left: 5px;
     margin-top: 2px;
     float: left;
 }
 
 .book-btn {
-    margin-right: 20px;
+    margin-right: 5px;
     margin-top: 2px;
     float: right;
-
-}
-
-.container-custom-services {
-    width: 340px;
-    padding: 10px 10px;
-    
-}
-
-.row{
-    justify-content: center;
-}
-
-.container-custom-services .image-text {
-    text-transform: uppercase;
-    font-size: 1.25em;
-    font-weight: 800;
-    letter-spacing: .25px;
-    margin: 10px auto;
-    text-align: center;
-}
-
-.container-color {
-    background-color: #FAF9F9;
-    border-radius: 10px;
-    margin-right: 35px;
-    margin-top: 10px;
-    justify-content: center;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-.jumbotron  {
-    height: 100%;
 }
 
 .text-prices p {
@@ -556,30 +496,18 @@ hr.socket {
 
 /*----Services Page-----*/
 
-@media (max-width: 768px) {
-    .announcement {
-        text-align: justify;
-        padding: 0 30px 0 30px;
-        
+@media screen and (min-width: 700px) {
+    .card-wrapper {
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-evenly;
     }
-}
-
-@media (max-width: 768px) {
-    .container-custom-services {
-        margin: 10px auto;
-    }
-}
-
-@media (max-width: 768px) {
-    .text-prices p {
-        text-align: left;
-        width: auto;
-        margin: 10px auto;
     
-    }
-
 }
 
+  
 
 /*----Reviews Page-----*/
 
