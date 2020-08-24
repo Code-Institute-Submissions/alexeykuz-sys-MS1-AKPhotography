@@ -75,6 +75,7 @@ html {
 .bg-wrapper {
     top: 0; 
     left: 0; 
+    width: 100%;
     min-width: 100%;
     min-height: 100%;
     overflow: hidden;
@@ -96,7 +97,7 @@ html {
     position: absolute;
     width: 100%;
     max-width: 100%;
-    top: 60%;
+    top: 80%;
     z-index: 1;
     padding-left: 10px;
     text-align: center;
@@ -439,15 +440,16 @@ hr.socket {
 @media screen and (min-width: 700px) {
 
   .bgimg {
-      
+      width: 100%;
       background-position-x: 40%;
     }
     .slogan h1 {
         position: absolute;
         width: 100%;
         max-width: 100%;
-        bottom: 10%;
+        top: 70%;
         left: 20%;
+        padding-right: 10px;
         font-size: 60px;
         letter-spacing: 0.2em;
   }
