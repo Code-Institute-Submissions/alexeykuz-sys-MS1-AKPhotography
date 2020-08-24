@@ -73,19 +73,10 @@ html {
 /*---Background----*/
 
 .bg-wrapper {
-    top: 0; 
-    left: 0; 
-    width: 100%;
-    min-width: 100%;
-    min-height: 100%;
-    overflow: hidden;
-}
-
-.bgimg {
     background-image: url("../images/model_main.jpeg");
-    width: 100%;
-    height: 100vh;
-    top:20px !important;
+    min-width: 100%;
+    min-height: 100vh;
+    
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
@@ -439,8 +430,9 @@ hr.socket {
 
 @media screen and (min-width: 700px) {
 
-  .bgimg {
+  .bg-wrapper {
       width: 100%;
+      height: 100vh;
       background-position-x: 40%;
     }
     .slogan h1 {
