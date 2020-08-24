@@ -14,6 +14,7 @@ html {
     color: #22181C;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     height: 100%;   
+    
 }
 
 .offset:before {
@@ -74,9 +75,9 @@ html {
 
 .bg-wrapper {
     background-image: url("../images/model_main.jpeg");
-    min-width: 100%;
+    width: 100%;
     min-height: 100vh;
-    
+    background-color: #000000;
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
@@ -434,6 +435,9 @@ hr.socket {
       width: 100%;
       height: 100vh;
       background-position-x: 40%;
+      overflow: hidden;
+      background-color: #000000; 
+
     }
     .slogan h1 {
         position: absolute;
