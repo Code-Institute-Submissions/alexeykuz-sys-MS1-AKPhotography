@@ -96,14 +96,14 @@ html {
     position: absolute;
     width: 100%;
     max-width: 100%;
-    top: 85%;
+    top: 80%;
     z-index: 1;
     padding-left: 10px;
     text-align: center;
     font-family: Calligraffitti;
     font-style: normal;
     font-weight: normal;
-    font-size: 65px;
+    font-size: 60px;
     line-height: 110px;
     letter-spacing: 0.2em;
     color: #FAF9F9;
