@@ -72,25 +72,38 @@ html {
 
 /*---Background----*/
 
+.bg-wrapper {
+    top: 0; 
+    left: 0; 
+    min-width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
 
 .bgimg {
     background-image: url("../images/model_main.jpeg");
-    height: 800px;
+    width: 100%;
+    height: 100vh;
     top:20px !important;
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-position-x: 36%; 
 }
 
 .slogan {
-    position: relative;
-    right: 45px;
-    top: 480px;
+    position: absolute;
+    width: 100%;
+    max-width: 100%;
+    top: 85%;
+    z-index: 1;
+    padding-left: 10px;
+    text-align: center;
     font-family: Calligraffitti;
     font-style: normal;
     font-weight: normal;
-    font-size: 85px;
+    font-size: 65px;
     line-height: 110px;
     letter-spacing: 0.2em;
     color: #FAF9F9;
@@ -423,24 +436,21 @@ hr.socket {
 }   
 /*---Background-----*/
 
-@media (max-width: 768px) {
-  .slogan {
-    font-size: 10px;
-    line-height: 110px;
-    letter-spacing: 0.7em;
-    right: -70px;
-    top: 560px;
-  }
-}
 
-@media (max-width: 768px) {
+@media screen and (min-width: 700px) {
+
   .bgimg {
-      background-image: url("../images/model_main-resized.jpg");
-      height: 700px;
-      width: 100%;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center center;
+      
+      background-position-x: 40%;
+    }
+    .slogan h1 {
+        position: absolute;
+        width: 100%;
+        max-width: 100%;
+        bottom: 10%;
+        left: 20%;
+        font-size: 60px;
+        letter-spacing: 0.2em;
   }
 }
 
