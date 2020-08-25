@@ -60,8 +60,8 @@ html {
     
 }
 
-.navbar-nav .nav-item .nav-link.active,
-.nav-link:hover {
+
+.navbar-dark .navbar-nav .nav-link:hover {
     color: rgb(179, 19, 24);
     text-transform: uppercase;
 }
@@ -445,7 +445,7 @@ input[type=submit]:hover {
         line-height: 2rem;
         text-align: justify;
         position: relative;
-        margin: 50px;
+        margin: 60px;
         flex:1;
         
     }
@@ -461,31 +461,6 @@ input[type=submit]:hover {
 }
 
 
-
-
-
-
-    /*.row-about {
-        margin-right: 0px;
-        margin-left: 10px;
-        padding-right: 5px;
-        width: 100%;
-        text-align: center;
-    }
-    .text-about {
-        
-        margin-left: 5px;
-        text-align: justify;
-        padding-right: 5px;
-    }
-    .img-about {
-        width: 100%;
-        background-position-x: 56%; 
-        margin-right: 0;
-    }
-}
-
-*/
 /*----Services Page-----*/
 
 @media screen and (min-width: 700px) {
