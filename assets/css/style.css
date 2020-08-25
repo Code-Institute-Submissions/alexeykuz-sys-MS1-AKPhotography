@@ -386,7 +386,7 @@ input[type=submit]:hover {
     .navbar-brand img {
         height: 3.5rem;
         width: auto;
-        padding-left:1.7rem 
+        padding-left:1.7rem;
     }
 }   
 
@@ -394,7 +394,7 @@ input[type=submit]:hover {
     .navbar-brand img {
         height: 3.5rem;
         width: auto;
-        padding-left:1.7rem 
+        padding-left:1.7rem;
     }
 }   
 /*---Background-----*/
