@@ -255,10 +255,10 @@ I've used **Bootstrap** and Flexbox throughout the project to ensure **maximum**
 **First Time Visitor Goals**
     
 - As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the photographer.
-- Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image to give users the first impression of photographer work.
-- The user has two options, click the call to menu or scroll down, both of which will lead to the same place, to learn more about the photographer.
-- As a First Time Visitor, I want easily be able to navigate throughout the site to find content.
-- The site has been designed to be fluid and never to entrap the user by excessive amount of photos. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
+- Upon entering the site, users are automatically greeted with a clean and intuitive navigation bar to go to the page of their choice. Underneath there is a Hero Image to give users the first impression of photographer work.
+- The user has two options, click the menu or scroll down, both of which will lead to the same place, to learn more about the photographer.
+- As a First Time Visitor, I want to be able to navigate easy and logically throughout the site to find content.
+- The site has been designed to be fluid and never to entrap the user by excessive amount of photos or text. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
 - Fixed to the top navigation bar ensures that user can easily navigate to the required page at any moment.
 - As a First Time Visitor, I want to look for testimonials to understand what previous clients think of photographer's work and see if he can be trusted. There are also links to the social media to see how active, serious and trustful is a photographer.
 - Once the new visitor has read the About they will reach Services page, where they can choose the kind of photography services they need and either look through the images stored in cloud to ensure fast website performance or to book services.
@@ -266,7 +266,7 @@ I've used **Bootstrap** and Flexbox throughout the project to ensure **maximum**
 
 **Returning Visitor Goals**
     
--  As a Returning Client, I want to find the photographer's latest works, availability calendar and booking form.
+- As a Returning Client, I want to find the photographer's latest works, availability calendar and booking form.
 - These are clearly shown in the service page with call for action button and announcement line.
 - The navigation bar clearly highlights the "Contact Us" Page.
 - Here they can fill out the form on the page or are told that you can contact photographer directly or via social media.
@@ -279,6 +279,37 @@ I've used **Bootstrap** and Flexbox throughout the project to ensure **maximum**
 -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 6, iPhone 7 & iPhoneX.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+**Manual testing of all elements of each page.**
+
+- Home Page
+
+* Made sure that navigation bar and hero image are covering the full page.
+* Checked that all navigation menu links work and lead to the correct page
+* Checked that logo brings users back to Home page.
+* Checked responsiveness of the page
+
+- About page
+
+* Checked that image and text are evenly spread and covered.
+* Checked responsiveness of the page
+
+- Service page
+
+* Checked that all items are evenly spread and cover the full page
+* Checked that all action buttons work and lead users to the correct gallery or Contact page.
+* Checked responsiveness of the page
+
+- Review Page
+
+* Checked if cards are evenly spread
+* Checked responsiveness of the page
+
+- Contact Page
+
+* Checked that form works and user has to fill out all parts of the form to be able to send  message.
+* Checked responsiveness of the page
+
 
 **Known Bugs**
 
