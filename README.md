@@ -134,7 +134,7 @@ Icons used where provided by [Font Awesome](https://fontawesome.com/), used in m
 
 **Colours**
 
-The colours were determined by the palette of Cooler website:
+The colours were determined by the palette of [Cooler](https://coolors.co/) website:
 
 -   For body text and some titles: #22181C;
 -   For Logo and and navbar menu and prices: #B71419;
@@ -143,7 +143,7 @@ The colours were determined by the palette of Cooler website:
 **Wireframe**
 
 I used Figma to build Mobile and Desktop design of the website.
-
+View my wireframes here:
 
 
 <p align="center">
@@ -151,9 +151,38 @@ I used Figma to build Mobile and Desktop design of the website.
 </p>
 
 
-
-
 ### 1.8. Features
+
+The website is built of 5 scroll down pages. It makes website easier to load and navigate. Users can easily navigate website by either scrolling down or going through Navigation Bar.
+
+**Navigation bar**
+
+Navigation bar structures of the photographer's Logo(i.e. his name) and menu. The Menu includes links to Home, About, Services, Reviews and Contact pages. Users can easily return to the top of the website either pressing Logo or Home tab.
+
+**About**
+
+About page is built of two collumns. The left column is the text, introucing photographer to the users, and the right page show one of the client's portraits.
+
+**Services**
+
+The service page consist of three parts. The top part is the Announcement line, showing photographer's availibility and prompting users to book the photoshoot at the specific months without delays. 
+Middle part consist of three card, showing sevices provided by the photographer. Each card has a photo corresponding the service and two action button, prompting users either to check out the galleries or to book the photoshoot.It should be noted that galleries are stored in the cloud and are open in the separate window to enable fast loading of the webiste.
+Underneath the cards there is a price section, clearly spelling the price and what this price includes. The user will have aclear pictures from this page of the services and prices offered by the photographer.
+
+**Reviews**
+
+The review page has four reviews with pictures of the clients.
+
+**Contact**
+
+The contact page has two columns. The left column is the self portrait of the photographer with few words specifing services and studio location. It will help to improve webiste SEO rating. 
+The right side is the contact form where clients have to include their dirst name and surname, email, choose kind of photoshoot they need and space for additional text. All fields are marked with Required attribute.
+
+**Footer**
+
+The bottom of the page is the footer with the name and direct contacts of the photographer and socila media links.
+
+
 
 Features that have been implemented:
 
@@ -172,9 +201,7 @@ Features that will be implemented in the future:
 -   Workshops
 -   Blog
 
-View my wireframes here:
--   Desktop Wireframe
--   Mobile Wireframe
+
 
 ### 1.9. Technologies Used
 
@@ -314,7 +341,7 @@ $ git clone https://github.com/alexeykuz-sys/MS1-AKPhotography.git
 
 ### Acknowledgements
 
--   My Mentor Oluwafemi Medale for continuous helpful feedback.
+-  My Mentor Oluwafemi Medale for continuous helpful feedback.
 -  Tutor support at Code Institute for their support.
 -  Slack community for support and inspiration.
 - Various youtube channels.
