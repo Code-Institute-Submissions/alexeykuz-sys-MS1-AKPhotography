@@ -6,7 +6,7 @@
 
 
 <p align="center">
-   <img height="350" src="assets/images/responsive.jpeg" alt="Base template mobile wireframe">
+   <img height="350" src="assets/images/responsive.jpeg" alt="responsive view">
 </p>
 
 **Contents**
@@ -145,7 +145,12 @@ The colours were determined by the palette of Cooler website:
 I used Figma to build Mobile and Desktop design of the website.
 
 
-an image ![alt]
+
+<p align="center">
+   <img height="350" src="assets/images/Wireframe.png" alt="wireframe img">
+</p>
+
+
 
 
 ### 1.8. Features
