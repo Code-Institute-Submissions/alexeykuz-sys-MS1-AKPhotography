@@ -10,7 +10,7 @@ body,
 html {
     overflow-x: hidden;
     color: #22181C;
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif,  -apple-system, system-ui, BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue";
     height: 100%;
     position: relative;
     
