@@ -11,33 +11,25 @@
 
 **Contents**
 
-UX Development
-	1. Project Goals
-	2. UX Requirements
-		2.1. Users
-		2.2 User Goals
-		2.3. Photographer Goals
-		2.4. User Stories
-			2.4.1 First time Visitors
-			2.4.2 Returning Visitors
-		2.5. Design Choices
-			2.5.1 Fonts
-			2.5.2. Icons
-			2.5.3. Colours
-	3. Features & Future Releases
-		+ Technology used
-	4. Technology used
-	5. Testing
-	6. Project Deployment
-	7.  Credits
-	8.  Acknowledgements
+
+1. UX Development
+2. UX Requirements
+3. Users
+4. User Goals
+5. Photographer Goals
+6. User Stories
+7. Design Choices
+8. Features & Future Releases
+9. Technology used
+10. Testing
+11. Project Deployment
+12.  Credits
+13.  Acknowledgements
 
 
+## 1. UX Development
 
-
-## UX Development
-
-### 1. Project Goals
+**Project Goals**
 
   [Alexey Kuzmis Photography](https://alexeykuz-sys.github.io/MS1-AKPhotography/)
 		
@@ -55,7 +47,7 @@ The website has to provide attractive, clear and safe framework for clients that
 
 The website targets the individuals who would need their photo taken for personal or business purposes. The clients will want to record the certain moments of their lives or achievements or to update and advance their personal brand on social media websites.
 
-### 2.1. Users:
+### 3. Users:
 
 1.  Private people interested to update their social network photos,
 2.  Models,
@@ -63,7 +55,7 @@ The website targets the individuals who would need their photo taken for persona
 4.  Corporate clients,
 5.  Families.
 
-### 2.2. User goals:
+### 4. User goals:
 
 1.  To identify user needs with services offered;
 2.  Find information about the photographer;
@@ -72,7 +64,7 @@ The website targets the individuals who would need their photo taken for persona
 5.  Contact photographer with enquiries;
 6.  Book the photoshoot with 2-3 easy steps.
 
-### 2.3. Photographer Goals
+### 5. Photographer Goals
 
 The site owner has the following goals:
 
@@ -86,9 +78,9 @@ The site owner has the following goals:
 8. To have a clean and simple in design and not be perceived as overloaded and cluttered with excessive content.
 9. Allow customers to make payments and track this for easy management of bookings and payments
 
-### 2.4. User Stories
+### 6. User Stories
 
-**2.4.1 First time Visitors**
+**First time Visitors**
 
 1.  Visitor to the website, I want to easily navigate the site and find what visitor needs within short attraction span
 2.  Visitor will want to view a gallery to identify with visitor’s taste and needs.
@@ -98,19 +90,19 @@ The site owner has the following goals:
 6.  Visitor wants an easy way to contact photographer.
 7.  As a client, I want to follow the artist on social media, so I can keep up with her latest works.
 
-**2.4.2 Returning Visitors**
+**Returning Visitors**
 
 1.  As a returning visitor to see the latest photographers photos;
 2. To see photographer's availability;
 3. To be able to book quickly and easy. 
 
-### 2.5. Design Choices
+### 7. Design Choices
 
 When designing this website, I looked for the design inspiration from various photographers websites and UX reviews on youtube.
 
 I have noticed that some photographers have accent on the photo galleries rather easy way to navigate and to reach information or booking pages. It can cause frustration and stop potential customer from contacting photographer and booking the photography session. I tried to achieve the balance satisfying artistic and B2C requirements.
 
-**2.5.1 Fonts**
+**Fonts**
 
 I have used Google Fonts to determine the best fonts suitable for each part of the website, I.e. Logo, Menu and Body information.
 
@@ -118,11 +110,11 @@ I opted to use Open Sans font for my website, which is one of the most popular f
 
 [Best Google Fonts](https://nestify.io/blog/top-10-best-google-fonts/)
 
-**2.5.2. Icons**
+**Icons**
 
 Icons used where provided by [Font Awesome](https://fontawesome.com/), used in moderation and are self explanatory.
 
-**2.5.3. Colours**
+**Colours**
 
 The colours were determined by the palette of [Cooler](https://coolors.co/) website:
 
@@ -130,7 +122,7 @@ The colours were determined by the palette of [Cooler](https://coolors.co/) webs
 -   For Logo and and navbar menu and prices: #B71419;
 -   For body background: #FAF9F9.
 
-**2.5.4. Wireframe**
+**Wireframe**
 
 I used Figma to build Mobile and Desktop design of the website.
 View my wireframes here:
@@ -141,7 +133,7 @@ View my wireframes here:
 </p>
 
 
-### 3. Features
+### 8. Features
 
 The website is built of 5 scroll down pages. It makes website easier to load and navigate. Users can easily navigate website by either scrolling down or going through Navigation Bar.
 
@@ -193,7 +185,7 @@ Features that will be implemented in the future:
 
 
 
-### 4. Technologies Used
+### 9. Technologies Used
 
 **UX/UI design**
 -   [Figma](https://figma.com/)
@@ -223,7 +215,7 @@ Features that will be implemented in the future:
 6.  [Figma:](https://figma.com/)
     -   Figma was used to create the  wireframes during the design process.
  
-### 5. Testing
+### 10. Testing
 
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
@@ -300,7 +292,7 @@ I've used **Bootstrap** and Flexbox throughout the project to ensure **maximum**
 * Checked responsiveness of the page
 
 
-### 6. Project Deployment
+### 11. Project Deployment
 
 **GitHub Pages**
 
@@ -335,7 +327,7 @@ $ git clone https://github.com/alexeykuz-sys/MS1-AKPhotography.git
 
 6. Press Enter. Your local clone will be created.
 
-### 7. Credits
+### 12. Credits
 
  **Media**
 
@@ -355,7 +347,7 @@ $ git clone https://github.com/alexeykuz-sys/MS1-AKPhotography.git
 
 -   All Images were created by the developer.
 
-### 8. Acknowledgements
+### 13. Acknowledgements
 
 -  My Mentor Oluwafemi Medale for continuous helpful feedback.
 -  Tutor support at Code Institute for their support.
