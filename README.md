@@ -11,36 +11,26 @@
 
 **Contents**
 
-1.  UX Development
-	+ Project Goals
-	+ UX Requirements
-	+ Users
-	+ User Goals
-	+ Photographer Goals
-	+ User Stories
-	+ Design Choices
-	* Fonts
-		+ Icons
-		+ Colours
-		+ Features & Future Releases
+UX Development
+	1. Project Goals
+	2. UX Requirements
+		2.1. Users
+		2.2 User Goals
+		2.3. Photographer Goals
+		2.4. User Stories
+			2.4.1 First time Visitors
+			2.4.2 Returning Visitors
+		2.5. Design Choices
+			2.5.1 Fonts
+			2.5.2. Icons
+			2.5.3. Colours
+	3. Features & Future Releases
 		+ Technology used
-		
-2. Testing
-	+ HTML and CSS check using WC3
-	+ Peer Code Review
-	+ User stories
-	+ User testing
-
-3.  Bugs and De-bugging
-	+ Known Issues
-
-4.  Project Deployment
-	 + Deployment
-	 + Creating a Local Version
-
-5.  References
-
-6.  Acknowledgements
+	4. Technology used
+	5. Testing
+	6. Project Deployment
+	7.  Credits
+	8.  Acknowledgements
 
 
 
@@ -120,7 +110,7 @@ When designing this website, I looked for the design inspiration from various ph
 
 I have noticed that some photographers have accent on the photo galleries rather easy way to navigate and to reach information or booking pages. It can cause frustration and stop potential customer from contacting photographer and booking the photography session. I tried to achieve the balance satisfying artistic and B2C requirements.
 
-**Fonts**
+**2.5.1 Fonts**
 
 I have used Google Fonts to determine the best fonts suitable for each part of the website, I.e. Logo, Menu and Body information.
 
@@ -128,11 +118,11 @@ I opted to use Open Sans font for my website, which is one of the most popular f
 
 [Best Google Fonts](https://nestify.io/blog/top-10-best-google-fonts/)
 
-**Icons**
+**2.5.2. Icons**
 
 Icons used where provided by [Font Awesome](https://fontawesome.com/), used in moderation and are self explanatory.
 
-**Colours**
+**2.5.3. Colours**
 
 The colours were determined by the palette of [Cooler](https://coolors.co/) website:
 
@@ -140,7 +130,7 @@ The colours were determined by the palette of [Cooler](https://coolors.co/) webs
 -   For Logo and and navbar menu and prices: #B71419;
 -   For body background: #FAF9F9.
 
-**Wireframe**
+**2.5.4. Wireframe**
 
 I used Figma to build Mobile and Desktop design of the website.
 View my wireframes here:
@@ -151,7 +141,7 @@ View my wireframes here:
 </p>
 
 
-### 1.8. Features
+### 3. Features
 
 The website is built of 5 scroll down pages. It makes website easier to load and navigate. Users can easily navigate website by either scrolling down or going through Navigation Bar.
 
@@ -203,7 +193,7 @@ Features that will be implemented in the future:
 
 
 
-### 1.9. Technologies Used
+### 4. Technologies Used
 
 **UX/UI design**
 -   [Figma](https://figma.com/)
@@ -233,7 +223,8 @@ Features that will be implemented in the future:
 6.  [Figma:](https://figma.com/)
     -   Figma was used to create the  wireframes during the design process.
  
-### 2. Testing**
+### 5. Testing
+
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
@@ -246,13 +237,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly) - Page is mobile friendly.
 
 
-### 2.1. Responsiveness
-
-**Implementation** 
+**Responsiveness** 
 
 I've used **Bootstrap** and Flexbox throughout the project to ensure **maximum** responsibility, which is tested with the above tools.
 
-**First Time Visitor Goals**
+**First Time Visitor Goals Test**
     
 - As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the photographer.
 - Upon entering the site, users are automatically greeted with a clean and intuitive navigation bar to go to the page of their choice. Underneath there is a Hero Image to give users the first impression of photographer work.
@@ -264,7 +253,7 @@ I've used **Bootstrap** and Flexbox throughout the project to ensure **maximum**
 - Once the new visitor has read the About they will reach Services page, where they can choose the kind of photography services they need and either look through the images stored in cloud to ensure fast website performance or to book services.
 - The user can also scroll to the bottom of the Contact Page where there are alternatively way to contact photographer either directly or via social media links.
 
-**Returning Visitor Goals**
+**Returning Visitor Goals Test**
     
 - As a Returning Client, I want to find the photographer's latest works, availability calendar and booking form.
 - These are clearly shown in the service page with call for action button and announcement line.
@@ -311,11 +300,7 @@ I've used **Bootstrap** and Flexbox throughout the project to ensure **maximum**
 * Checked responsiveness of the page
 
 
-**Known Bugs**
-
--  A white gap can be seen to the right of the footer and navigation bar as a result.
-
-### 3. Project Deployment
+### 6. Project Deployment
 
 **GitHub Pages**
 
@@ -350,7 +335,7 @@ $ git clone https://github.com/alexeykuz-sys/MS1-AKPhotography.git
 
 6. Press Enter. Your local clone will be created.
 
-### 4. Credits
+### 7. Credits
 
  **Media**
 
@@ -370,7 +355,7 @@ $ git clone https://github.com/alexeykuz-sys/MS1-AKPhotography.git
 
 -   All Images were created by the developer.
 
-### Acknowledgements
+### 8. Acknowledgements
 
 -  My Mentor Oluwafemi Medale for continuous helpful feedback.
 -  Tutor support at Code Institute for their support.
