@@ -4,6 +4,11 @@
 
 **Alexey Kuzmis Photography**
 
+
+<p align="center">
+   <img height="350" src="assets/images/responsive.jpeg" alt="Base template mobile wireframe">
+</p>
+
 **Contents**
 
 1.  UX Development
