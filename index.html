@@ -100,7 +100,7 @@
                     </div>
                 </div>
                 <div class="card service-card-custom" >
-                    <img class="card-img-top" src="assets/images/fashion_style.jpeg" alt="Model Photo">
+                    <img class="card-img-top" src="assets/images/fashion_style.jpeg" alt="Fashion Photo">
                     <div class="card-body">
                         <h5 class="card-title text-center">Fashion Photography</h5>
                         <a class="btn gallery-btn" href="https://www.dropbox.com/sh/9yr7euqblsokm6h/AAAve8HqjjCqMwXo4ecBpjEVa?dl=0" target="_blank">Gallery</a>
@@ -108,7 +108,7 @@
                     </div>
                 </div>
                 <div class="card service-card-custom" >
-                    <img class="card-img-top" src="assets/images/children.jpeg" alt="Model Photo">
+                    <img class="card-img-top" src="assets/images/children.jpeg" alt="Kid Photo">
                     <div class="card-body">
                         <h5 class="card-title text-center">Children & Family Photography</h5>
                         <a class="btn gallery-btn" href="https://www.dropbox.com/sh/qnlvfxygfiv284z/AABmMzcmozWEM3m5GdPh6Ubla?dl=0" target="_blank">Gallery</a>
@@ -116,13 +116,13 @@
                     </div>
                 </div>
                 
-            </div>
+            
         
                              <!--End of Service section-->
     
                             <!--Start of Price section-->
-            <div class="row flex-center">
-                <div class="col-10 mr-5 pr-2 text-prices">
+            
+                <div class="text-prices">
                     <p>
                     All services: £100
                     <br>
@@ -139,6 +139,7 @@
                     Fast image editing turnaround time.
                     </p>
                 </div>
+            
             </div>
         </div>
     </div>
@@ -152,7 +153,7 @@
         <div class="review-card-wrapper align-top">
             <div class="card bg-white review-card-custom">
                 
-                <img class="img-fluid img-review" src="assets/images/helen.jpeg" alt="helen" loading="lazy">
+                <img class="img-fluid img-review" src="assets/images/helen.jpeg" alt="helen-photo" loading="lazy">
                 
                 <div class="card-header bg-white header-reviews">
                     <h5 class="card-title">Helen Griffin   on 24 July, 2019</h5>
@@ -171,7 +172,7 @@
             </div>   
 
             <div class="card bg-white review-card-custom">
-                <img class="img-fluid img-review" src="assets/images/uliana.jpeg" alt="uliana" loading="lazy">
+                <img class="img-fluid img-review" src="assets/images/uliana.jpeg" alt="uliana-photo" loading="lazy">
                 
                 <div class="card-header bg-white header-reviews">
                     <h5 class="card-title">Uliana Sam’s  on 17th of April, 2019</h5>
@@ -190,7 +191,7 @@
 
             <div class="card bg-white review-card-custom">
                 
-                <img class="img-fluid img-review" src="assets/images/darren.jpg" alt="darren" loading="lazy">
+                <img class="img-fluid img-review" src="assets/images/darren.jpg" alt="darren-photo" loading="lazy">
                 
                 <div class="card-header bg-white header-reviews">
                     <h5 class="card-title">Darren Cole's  on 22 July, 2019</h5>
@@ -207,7 +208,7 @@
             </div>   
             
             <div class="card bg-white review-card-custom">
-                <img class="img-fluid img-review" src="assets/images/kirill.jpeg" alt="kirill" width="80" height="95" loading="lazy">
+                <img class="img-fluid img-review" src="assets/images/kirill.jpeg" alt="kirill-photo" width="80" height="95" loading="lazy">
                 
                 <div class="card-header bg-white header-reviews">
                     <h5 class="card-title">Kirill Grytsenko's on 22 April, 2019</h5>
@@ -233,7 +234,7 @@
         </div>
         <div class="container">
         <div class="contact-wrapper">
-            <img class="contacts-image" src="assets/images/alexey.jpg" alt="alexey" loading="lazy">
+            <img class="contacts-image" src="assets/images/alexey.jpg" alt="alexey-photo" loading="lazy">
             <p>
             Based in West London,  I specialise in portrait photography, children and family  photography.
             For more information or to make a booking, please contact me. 
@@ -242,11 +243,11 @@
         <div class="contact-form-wrapper">
             <form class="contact-form" action="/action_page.php">
                 <label for="fname">First name:</label>
-                <input type="text" id="fname" name="fname" placeholder="Your name..">
+                <input type="text" id="fname" name="fname" placeholder="Your name.." required>
                 <label for="lname">Last name:</label>
-                <input type="text" id="lname" name="lname" placeholder="Your last name.."><br>
+                <input type="text" id="lname" name="lname" placeholder="Your last name.." required><br>
                 <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email" placeholder="Your email..."><br>
+                <input type="email" id="email" name="email" placeholder="Your email..." required><br>
                 <label for="style">Photoshoot Style</label>
                 <select id="style" name="style">
                     <option value="headshot">Heasdshot</option>
@@ -255,7 +256,7 @@
                 </select>
                 <br>
                 <label for="text">Text</label><br>
-                <textarea id="text" name="text" placeholder="Write to me.." style="height:140px"></textarea>
+                <textarea id="text" name="text" placeholder="Write to me.." required style="height:140px"></textarea>
                 <input type="submit" value="Submit">
             </form> 
          </div>   

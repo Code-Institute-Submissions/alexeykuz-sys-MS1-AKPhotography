@@ -218,7 +218,11 @@ html {
     font-weight: 800;
     font-size: 1.2em;
     text-align: justify;
-    margin: 39px 35px;
+    width: 100%;
+    position: relative;
+    align-content: center;
+    align-items: center;
+    margin: 39px auto;
     padding: 15px;
     line-height: 2.0rem;
     background-color: whitesmoke;
@@ -374,20 +378,13 @@ input[type=submit]:hover {
     .navbar {    
         font-size: 1.2rem;
     }
-
-}
-
-@media (max-width: 768px) {
+    
     .navbar-nav {
         background-color: rgba(165, 161, 161, 0.5);
         padding-right: 1rem;
         text-align: center;
 
     }
-
-}
-
-@media (max-width: 768px) {
     .navbar-brand img {
         height: 3.5rem;
         width: auto;
