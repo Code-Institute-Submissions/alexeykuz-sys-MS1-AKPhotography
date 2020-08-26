@@ -29,7 +29,7 @@ html {
     color: #B71419;
     background-color: #FAF9F9;
     font-weight: 200;
-    font-size: .9rem;
+    font-size: 1.3rem;
     letter-spacing: .2rem;
     padding: 0px;
     height: 5.25rem;
@@ -161,6 +161,7 @@ html {
 
 /*---Services slides decoration----*/ 
 
+
 .card-wrapper {
     display: flex;
     align-content: center;
@@ -180,6 +181,10 @@ html {
 
 .card-body {
     width: 100%;
+}
+
+.service-text-custom {
+    padding-top: 5px;
 }
 
 .book-btn,
@@ -341,14 +346,14 @@ input[type=submit]:hover {
 
 /*---Footer decoration----*/ 
 
-.text-center {
+.text-footer-custom {
     padding: 50px 10px 5px 5px;
     font-size: 1.2em;
     color:#22181C;
 
 }
 
-.text-center p {
+.text-footer-custom p {
     
     font-size: 1em;
     color:#22181C;
@@ -459,6 +464,7 @@ input[type=submit]:hover {
 /*----Services Page-----*/
 
 @media screen and (min-width: 700px) {
+    
     .card-wrapper {
         flex-wrap: wrap;
         flex-direction: row;
@@ -466,9 +472,48 @@ input[type=submit]:hover {
         
     }
     .service-card-custom {
-        width: 23rem;
+        width: 35rem;
         margin: 10px;
     }
+    
+    .card-body {
+    width: 100%;
+    font-size: 1.5rem;
+    }
+    .service-text-custom {
+        padding: 10px;
+       font-size: 1.75rem;
+    
+    }
+
+    .book-btn,
+    .gallery-btn {
+    font-size: 25px;
+    padding: 6px 12px;
+    text-align: center;
+    }
+
+    .gallery-btn {
+        margin-left: 5px;
+        margin-top: 2px;
+        float: left;
+    }
+
+    .book-btn {
+        margin-right: 5px;
+        margin-top: 2px;
+        float: right;
+    }
+
+
+
+    .text-prices p {
+    position: relative;
+    align-content: center;
+    align-items: center;
+    width: 85%;
+    }
+    
 }
 
   
@@ -488,7 +533,7 @@ input[type=submit]:hover {
         
     }
     .review-card-custom {
-        width: 35rem;
+        width: 55rem;
         margin: 10px;
     }
 
