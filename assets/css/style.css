@@ -185,6 +185,7 @@ html {
 
 .service-text-custom {
     padding-top: 5px;
+
 }
 
 .book-btn,
@@ -478,11 +479,11 @@ input[type=submit]:hover {
     
     .card-body {
     width: 100%;
-    font-size: 1.5rem;
+    
     }
     .service-text-custom {
         padding: 10px;
-       font-size: 1.75rem;
+        font-size: 1.5rem;
     
     }
 
@@ -533,7 +534,7 @@ input[type=submit]:hover {
         
     }
     .review-card-custom {
-        width: 55rem;
+        width: 38rem;
         margin: 10px;
     }
 
