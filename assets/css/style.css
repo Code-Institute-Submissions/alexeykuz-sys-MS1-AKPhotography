@@ -528,8 +528,8 @@ input[type=submit]:hover {
         justify-content: space-around;
         clear: both;
         flex-direction: row;
-       
-       display: flex;
+        align-items: flex-start;
+        display: flex;
         
     }
     .review-card-custom {
