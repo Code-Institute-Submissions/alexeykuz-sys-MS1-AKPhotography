@@ -29,7 +29,7 @@ html {
     color: #B71419;
     background-color: #FAF9F9;
     font-weight: 200;
-    font-size: 1.3rem;
+    font-size: 1rem;
     letter-spacing: .2rem;
     padding: 0px;
     height: 5.25rem;
@@ -379,7 +379,7 @@ input[type=submit]:hover {
 
 @media (max-width: 768px) {
     .navbar {    
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
     
     .navbar-nav {
