@@ -114,35 +114,28 @@ html {
     text-align: center;
 }
 
-.about-wrapper {
-    display:flex;
-    align-content: center;
-    align-items: center;
-    flex-direction: column;
+.img-about {
+    background: url("../images/model-about.jpeg");
+    position: relative;
     width: 100%;
-    height:100%;
-  
+    height: 600px;
+    margin-left: 50px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-position-y: 20%;
+    
 }
+
 
 .text-about {
     line-height: 2rem;
     text-align: justify;
     position: relative;
-    margin: 10px;
-    
-    
+    margin-left: 35px;
 }
 
-.img-about {
-    background: url("../images/model-about.jpeg");
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    
-}
+
 
 /*---Service page----*/
 
@@ -250,9 +243,10 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    
     margin-top: 20px;
     width: 23rem;
+    height: 40rem;
     filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.363));
     
 }
@@ -426,45 +420,17 @@ input[type=submit]:hover {
   }
 }
 
-/*---About-----*/
-
-
-
-@media screen and (min-width: 700px) {
-    .about-wrapper {
-        display:flex;
-        align-content: center;
-        align-items: center;
-        flex-direction: row;
-        justify-content: space-evenly;
-        
-        
-    }
-
-    .text-about {
-        
-        line-height: 2rem;
-        text-align: justify;
-        position: relative;
-        margin: 60px;
-        flex:1;
-        
-    }
-
-    .img-about {
-        width: 100%;
-        height: 600px;
-        background-size: contain;
-        flex:1;
-        
-    }
-     
-}
-
 
 /*----Services Page-----*/
 
 @media screen and (min-width: 700px) {
+    .service-wrapper {
+       width: auto;
+        align-content: center;
+        justify-content:center;
+        flex-direction: column;
+        display: grid;
+    }
     
     .card-wrapper {
         flex-wrap: wrap;
@@ -473,7 +439,9 @@ input[type=submit]:hover {
         
     }
     .service-card-custom {
-        width: 25rem;
+        
+        width: 23rem;
+        
         margin: 10px;
     }
     
@@ -512,7 +480,7 @@ input[type=submit]:hover {
     position: relative;
     align-content: center;
     align-items: center;
-    width: 98%;
+    
     }
     
 }
@@ -574,33 +542,4 @@ input[type=submit]:hover {
         
         
     }
-}
-
-
-
-
-
-/*Bootstrap 4 breakpoints
-
- 
-/* 
-Extra small devices (portrait phones, less than 576px) 
-No media query since this is the default in Bootstrap because it is "mobile first"
-*/
- 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {  
- 
-}
-/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-@media (min-width: 768px) {  
- 
-} 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
-
-}
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  
-    
 }
