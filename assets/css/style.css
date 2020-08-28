@@ -153,9 +153,73 @@ html {
 }
 
 /*---Services slides decoration----*/ 
+service-card-custom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    width: 135rem;
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+}
 
+.card-body {
+    width: 100%;
+}
 
-.card-wrapper {
+.service-text-custom {
+    padding-top: 5px;
+
+}
+
+.book-btn,
+.gallery-btn {
+  background-color: #FAF9F9;
+  color: #22181C;
+  font-size: 16px;
+  padding: 6px 12px;
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.book-btn:hover,
+.gallery-btn:hover {
+    color: #B71419;
+    text-transform: uppercase;
+}
+
+.gallery-btn {
+    margin-left: 5px;
+    margin-top: 2px;
+    float: left;
+}
+
+.book-btn {
+    margin-right: 5px;
+    margin-top: 2px;
+    float: right;
+}
+
+.text-prices p {
+    font-weight: 800;
+    font-size: 1.2em;
+    text-align: justify;
+    width: 100%;
+    position: relative;
+    align-content: center;
+    align-items: center;
+    margin: 39px auto;
+    padding: 15px;
+    line-height: 2.0rem;
+    background-color: whitesmoke;
+    color:#b71419;
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/*.card-wrapper {
     display: flex;
     align-content: center;
     align-items: center;
@@ -227,7 +291,7 @@ html {
     border-radius: 10px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-
+*/
 /*---Reviews decoration----*/
 
 .review-card-wrapper {
@@ -422,7 +486,7 @@ input[type=submit]:hover {
 
 
 /*----Services Page-----*/
-
+/*
 @media screen and (min-width: 700px) {
     .service-wrapper {
        width: auto;
@@ -484,7 +548,7 @@ input[type=submit]:hover {
     }
     
 }
-
+*/
   
 
 /*----Reviews Page-----*/
