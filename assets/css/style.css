@@ -19,7 +19,7 @@ html {
 .offset:before {
     display: block;
     content: "";
-    height: 5rem;
+    height: 7rem;
     margin-top: -4rem;
 }
 
@@ -57,7 +57,6 @@ html {
     padding-top: 0.8rem;
     
 }
-
 
 .navbar-dark .navbar-nav .nav-link:hover {
     color: rgb(179, 19, 24);
@@ -271,11 +270,54 @@ html {
 .checked {
     color:rgb(245, 245, 122);
     font-size: 1.2em;
-
+}
 
 /*---Contact page decoration----*/
 
-.contact-wrapper {
+
+.contacts-image {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    margin: auto;
+}
+
+.contact-text p {
+    text-align: justify;
+    margin: auto;
+    margin-top: 25px;
+    width: 350px;
+}
+
+.contact-form {
+    
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+input[type=text], input[type=email], select, textarea {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #22181C;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #B71419;
+;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #B71419;
+}
+
+/*.contact-wrapper {
     display: flex;
     align-content: center;
     align-items: center;
@@ -321,7 +363,7 @@ input[type=submit]:hover {
   background-color: #B71419;
 }
 
-
+*/
 /*---Footer decoration----*/ 
 
 .text-footer-custom {
@@ -414,10 +456,8 @@ input[type=submit]:hover {
 
 /*----Contact Page-----*/
 
-@media screen and (min-width: 700px) {
-    .container {
-        display: flex;
-    }
+/*@media screen and (min-width: 700px) {
+
     .contact-wrapper {
         display: flex;
         flex-direction: column;
