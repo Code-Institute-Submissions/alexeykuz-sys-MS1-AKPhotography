@@ -222,98 +222,11 @@ service-card-custom {
     color:#b71419;
 }  
 
-/*.card-wrapper {
-    display: flex;
-    align-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.service-card-custom {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: 20px;
-    width: 23rem;
-    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
-}
-
-.card-body {
-    width: 100%;
-}
-
-.service-text-custom {
-    padding-top: 5px;
-
-}
-
-.book-btn,
-.gallery-btn {
-  background-color: #FAF9F9;
-  color: #22181C;
-  font-size: 16px;
-  padding: 6px 12px;
-  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
-  cursor: pointer;
-  border-radius: 5px;
-  text-align: center;
-}
-
-.book-btn:hover,
-.gallery-btn:hover {
-    color: #B71419;
-    text-transform: uppercase;
-}
-
-.gallery-btn {
-    margin-left: 5px;
-    margin-top: 2px;
-    float: left;
-}
-
-.book-btn {
-    margin-right: 5px;
-    margin-top: 2px;
-    float: right;
-}
-
-.text-prices p {
-    font-weight: 800;
-    font-size: 1.2em;
-    text-align: justify;
-    width: 100%;
-    position: relative;
-    align-content: center;
-    align-items: center;
-    margin: 39px auto;
-    padding: 15px;
-    line-height: 2.0rem;
-    background-color: whitesmoke;
-    color:#b71419;
-    border-radius: 10px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-*/
 /*---Reviews decoration----*/
 
-.review-card-wrapper {
-    display: flex;
-    align-content: center;
-    align-items: center;
-    flex-direction: column;
-    
-    
-}
-
 .review-card-custom {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-    margin-top: 20px;
-    width: 23rem;
-    height: 40rem;
+    width: auto;
+   
     filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.363));
     
 }
@@ -339,11 +252,13 @@ service-card-custom {
 
 
 .text-reviews {
+    margin-right: 10px;
+    width: auto;
+    text-align: justify;
     height: auto;
     font-size: 1.2em;
-    line-height: 35px;    
-    float: left;
-    margin: 0 10px 10px;
+    line-height: 30px;    
+    
 }
 
 
@@ -351,8 +266,6 @@ service-card-custom {
 .checked {
     color:rgb(245, 245, 122);
     font-size: 1.2em;
-
-}
 
 
 /*---Contact page decoration----*/
@@ -362,8 +275,6 @@ service-card-custom {
     align-content: center;
     align-items: center;
     flex-direction: column;
-
-
 }
 
 .contacts-image {
@@ -489,91 +400,11 @@ input[type=submit]:hover {
 
 
 /*----Services Page-----*/
-/*
-@media screen and (min-width: 700px) {
-    .service-wrapper {
-       width: auto;
-        align-content: center;
-        justify-content:center;
-        flex-direction: column;
-        display: grid;
-    }
-    
-    .card-wrapper {
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: space-evenly;
-        
-    }
-    .service-card-custom {
-        
-        width: 23rem;
-        
-        margin: 10px;
-    }
-    
-    .card-body {
-    width: 100%;
-    
-    }
-    .service-text-custom {
-        padding: 10px;
-        font-size: 1.2rem;
-    
-    }
 
-    .book-btn,
-    .gallery-btn {
-    font-size: 1.2rem;
-    padding: 6px 12px;
-    text-align: center;
-    }
-
-    .gallery-btn {
-        margin-left: 5px;
-        margin-top: 2px;
-        float: left;
-    }
-
-    .book-btn {
-        margin-right: 5px;
-        margin-top: 2px;
-        float: right;
-    }
-
-
-
-    .text-prices p {
-    position: relative;
-    align-content: center;
-    align-items: center;
-    
-    }
-    
-}
-*/
   
 
 /*----Reviews Page-----*/
 
-@media screen and (min-width: 700px) {
-    .review-card-wrapper {
-        flex-wrap: wrap;
-        align-content: center;
-        
-        justify-content: space-around;
-        clear: both;
-        flex-direction: row;
-        align-items: flex-start;
-        display: flex;
-        
-    }
-    .review-card-custom {
-        width: 38rem;
-        margin: 10px;
-    }
-
-}
 
 
 /*----Contact Page-----*/
