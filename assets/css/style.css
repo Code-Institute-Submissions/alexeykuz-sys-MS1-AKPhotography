@@ -232,7 +232,7 @@ html {
     margin-top: 20px;
     padding: 1.2em;
     filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.363));
-    height: 100vh;
+    min-height: 720px;
 }
 
 .img-review {
@@ -255,16 +255,12 @@ html {
 
 .text-reviews {
     display: block;
-    padding: 1.2em;
-    
+    padding: 1em;
     text-align: justify;
-    
     font-size: 1.2em;
     line-height: 30px;    
     
 }
-
-
 
 .checked {
     color:rgb(245, 245, 122);
@@ -316,60 +312,13 @@ input[type=submit]:hover {
   background-color: #B71419;
 }
 
-/*.contact-wrapper {
-    display: flex;
-    align-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.contacts-image {
-    
-    width: 300px;
-    height: 300px;
-}
-
-.contact-wrapper p {
-    text-align: justify;
-    margin: 2rem;
-}
-
-.contact-form {
-    align-items: center;
-    margin-left: 30px;
-    margin-bottom: 30px;
-}
-
-input[type=text], input[type=email], select, textarea {
-  width: 90%;
-  padding: 10px;
-  border: 1px solid #22181C;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  resize: vertical;
-}
-
-input[type=submit] {
-  background-color: #B71419;
-;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #B71419;
-}
-
-*/
 /*---Footer decoration----*/ 
 
 .text-footer-custom {
-    padding: 50px 10px 5px 5px;
+    padding: 10px;
     font-size: 1.2em;
     color:#22181C;
-
+    margin-top: 40px;
 }
 
 .text-footer-custom p {
@@ -383,7 +332,7 @@ input[type=submit]:hover {
     color:#22181C;
     padding-right: 30px;
     margin: auto 0;
-    font-size: 1.3em;
+    font-size: 1.4em;
     
 }
 .text-center a:hover {
@@ -430,7 +379,6 @@ input[type=submit]:hover {
       
       background-position-x: 40%;
     
-
     }
     .slogan h1 {
         position: absolute;
@@ -454,33 +402,3 @@ input[type=submit]:hover {
 
 /*----Contact Page-----*/
 
-/*@media screen and (min-width: 700px) {
-
-    .contact-wrapper {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        flex:0 0 52%;
-    }
-    .contact-form-wrapper {
-        display: flex;
-        flex:1;
-        
-    }
-    .contact-wrapper p {
-        width: 60%;
-        margin-left: 15px;
-        text-align: justify;
-        
-    }
-    .contacts-image {
-        
-        margin-top: 15px;
-        
-    }
-    .contact-form {
-       width: 100%;
-        
-        
-    }
-}
