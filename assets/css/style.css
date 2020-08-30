@@ -160,14 +160,8 @@ html {
     justify-content: space-evenly;
     margin-top: 20px;
     filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.35));
-    transition: 1s ease;
-    cursor: pointer;
     border-radius: 10px;
     
-}
-
-.service-card-custom:hover {
-    transform: scale(1.2)
 }
 
 .card-body {
@@ -217,14 +211,8 @@ html {
      background-color: whitesmoke;
     border-radius: 10px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    transition: 1s ease;
-    cursor: pointer;
+    
 }
-
-.text-prices:hover {
-    transform: scale(1.3)
-}
-
 
 .text-prices p {
     font-weight: 800;
