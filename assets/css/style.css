@@ -163,7 +163,7 @@ html {
     transition: 1s ease;
     cursor: pointer;
     border-radius: 10px;
-    overflow: hidden;
+    
 }
 
 .service-card-custom:hover {
