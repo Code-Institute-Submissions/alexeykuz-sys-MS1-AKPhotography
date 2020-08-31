@@ -222,8 +222,17 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)  -  No Warnings
 
+
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)  -  No Warnings 
-- 
+
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+
 - [Website responsiveness]([http://ami.responsivedesign.is/](http://ami.responsivedesign.is/)
 
 - [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly) - Page is mobile friendly.
@@ -341,7 +350,9 @@ $ git clone https://github.com/alexeykuz-sys/MS1-AKPhotography.git
 -   Flexbox was used to make site responsive and position elements on the page
 
     **Content**
--   All content was written by the developer.
+-   All content was written by the developer. Some ideas where taken from the following sources:
+-   Side by side divs - https://coder-coder.com/display-divs-side-by-side/
+-   Bootstrap cards - (https://www.youtube.com/watch?v=GWE9ay9H7uU-->
     
     **Media**
 
