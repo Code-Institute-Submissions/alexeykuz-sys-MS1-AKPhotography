@@ -182,6 +182,7 @@ Features that will be implemented in the future:
 -   Booking form
 -   Workshops
 -   Blog
+-   Enabling submit button in contact form.
 
 
 
@@ -297,7 +298,8 @@ I've used **Bootstrap** and Flexbox throughout the project to ensure **maximum**
 
 - Contact Page
 
-* Checked that form works and user has to fill out all parts of the form to be able to send  message.
+* Checked that, even that the contact form is not functional, all the fields of the form works and user has to fill out all parts of the form before pressing submit button.
+* Checked that submit button disabled and does not have a broken link.
 * Checked responsiveness of the page
 
 
